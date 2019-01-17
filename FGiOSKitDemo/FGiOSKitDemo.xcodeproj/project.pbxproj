@@ -13,18 +13,7 @@
 		07161F2D21EF2916002E550E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07161F2C21EF2916002E550E /* Assets.xcassets */; };
 		07161F3021EF2916002E550E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07161F2E21EF2916002E550E /* LaunchScreen.storyboard */; };
 		07161F3321EF2916002E550E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07161F3221EF2916002E550E /* main.m */; };
-		0716223021F06DE2002E550E /* FGBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621DA21F06DE2002E550E /* FGBaseCollectionViewCell.m */; };
-		0716223121F06DE2002E550E /* FGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621DB21F06DE2002E550E /* FGBaseNavigationController.m */; };
-		0716223221F06DE2002E550E /* FGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621DC21F06DE2002E550E /* FGBaseViewController.m */; };
-		0716223321F06DE2002E550E /* FGBaseRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621DD21F06DE2002E550E /* FGBaseRefreshTableViewController.m */; };
-		0716223421F06DE2002E550E /* FGBaseRefreshCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621E021F06DE2002E550E /* FGBaseRefreshCollectionViewController.m */; };
-		0716223521F06DE2002E550E /* FGPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621E121F06DE2002E550E /* FGPageViewController.m */; };
-		0716223621F06DE2002E550E /* FGBaseTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621E721F06DE2002E550E /* FGBaseTouchView.m */; };
-		0716223721F06DE2002E550E /* FGBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621EA21F06DE2002E550E /* FGBaseTableViewCell.m */; };
-		0716223821F06DE2002E550E /* FGBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621EB21F06DE2002E550E /* FGBaseView.m */; };
 		0716224921F06DE2002E550E /* FGTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716220F21F06DE2002E550E /* FGTools.m */; };
-		0716225421F07AEC002E550E /* FGRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716225121F07AEC002E550E /* FGRefreshHeader.m */; };
-		0716225521F07AEC002E550E /* FGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716225221F07AEC002E550E /* FGScrollView.m */; };
 		72C690D7B26E6DB603E0A1EF /* libPods-FGiOSKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFF1B98E3F100610792E35 /* libPods-FGiOSKitDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -40,35 +29,12 @@
 		07161F3121EF2916002E550E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07161F3221EF2916002E550E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0716217021F05467002E550E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		071621DA21F06DE2002E550E /* FGBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseCollectionViewCell.m; sourceTree = "<group>"; };
-		071621DB21F06DE2002E550E /* FGBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseNavigationController.m; sourceTree = "<group>"; };
-		071621DC21F06DE2002E550E /* FGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseViewController.m; sourceTree = "<group>"; };
-		071621DD21F06DE2002E550E /* FGBaseRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseRefreshTableViewController.m; sourceTree = "<group>"; };
-		071621DE21F06DE2002E550E /* FGBaseTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseTouchView.h; sourceTree = "<group>"; };
-		071621DF21F06DE2002E550E /* FGBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseTableViewCell.h; sourceTree = "<group>"; };
-		071621E021F06DE2002E550E /* FGBaseRefreshCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseRefreshCollectionViewController.m; sourceTree = "<group>"; };
-		071621E121F06DE2002E550E /* FGPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPageViewController.m; sourceTree = "<group>"; };
-		071621E221F06DE2002E550E /* FGBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseView.h; sourceTree = "<group>"; };
-		071621E321F06DE2002E550E /* FGBaseRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseRefreshTableViewController.h; sourceTree = "<group>"; };
-		071621E421F06DE2002E550E /* FGBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseViewController.h; sourceTree = "<group>"; };
-		071621E521F06DE2002E550E /* FGBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseNavigationController.h; sourceTree = "<group>"; };
-		071621E621F06DE2002E550E /* FGBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseCollectionViewCell.h; sourceTree = "<group>"; };
-		071621E721F06DE2002E550E /* FGBaseTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseTouchView.m; sourceTree = "<group>"; };
-		071621E821F06DE2002E550E /* FGPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPageViewController.h; sourceTree = "<group>"; };
-		071621E921F06DE2002E550E /* FGBaseRefreshCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseRefreshCollectionViewController.h; sourceTree = "<group>"; };
-		071621EA21F06DE2002E550E /* FGBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseTableViewCell.m; sourceTree = "<group>"; };
-		071621EB21F06DE2002E550E /* FGBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseView.m; sourceTree = "<group>"; };
 		0716220E21F06DE2002E550E /* FGTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGTools.h; sourceTree = "<group>"; };
 		0716220F21F06DE2002E550E /* FGTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGTools.m; sourceTree = "<group>"; };
 		0716221021F06DE2002E550E /* FGUtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGUtilsMacro.h; sourceTree = "<group>"; };
 		0716221121F06DE2002E550E /* FGiOSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGiOSKit.h; sourceTree = "<group>"; };
 		0716221221F06DE2002E550E /* APPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPConst.h; sourceTree = "<group>"; };
 		0716221321F06DE2002E550E /* APPConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPConfig.h; sourceTree = "<group>"; };
-		0716221421F06DE2002E550E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		0716225021F07AEC002E550E /* FGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGScrollView.h; sourceTree = "<group>"; };
-		0716225121F07AEC002E550E /* FGRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGRefreshHeader.m; sourceTree = "<group>"; };
-		0716225221F07AEC002E550E /* FGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGScrollView.m; sourceTree = "<group>"; };
-		0716225321F07AEC002E550E /* FGRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGRefreshHeader.h; sourceTree = "<group>"; };
 		0AF096B71A05D716DC7E3CAF /* Pods-FGiOSKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGiOSKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-FGiOSKitDemo/Pods-FGiOSKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7205F2F4C2BD3D4E362D75A2 /* Pods-FGiOSKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGiOSKitDemo.release.xcconfig"; path = "Target Support Files/Pods-FGiOSKitDemo/Pods-FGiOSKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7BEFF1B98E3F100610792E35 /* libPods-FGiOSKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FGiOSKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,7 +94,6 @@
 				0716221121F06DE2002E550E /* FGiOSKit.h */,
 				0716221221F06DE2002E550E /* APPConst.h */,
 				0716221321F06DE2002E550E /* APPConfig.h */,
-				0716221421F06DE2002E550E /* PrefixHeader.pch */,
 			);
 			name = FGiOSKit;
 			path = ../../FGiOSKit;
@@ -137,39 +102,9 @@
 		0716219721F06DE2002E550E /* iOSKit */ = {
 			isa = PBXGroup;
 			children = (
-				071621D921F06DE2002E550E /* BaseClass */,
 				0716220D21F06DE2002E550E /* Helper */,
 			);
 			path = iOSKit;
-			sourceTree = "<group>";
-		};
-		071621D921F06DE2002E550E /* BaseClass */ = {
-			isa = PBXGroup;
-			children = (
-				0716225321F07AEC002E550E /* FGRefreshHeader.h */,
-				0716225121F07AEC002E550E /* FGRefreshHeader.m */,
-				0716225021F07AEC002E550E /* FGScrollView.h */,
-				0716225221F07AEC002E550E /* FGScrollView.m */,
-				071621DA21F06DE2002E550E /* FGBaseCollectionViewCell.m */,
-				071621DB21F06DE2002E550E /* FGBaseNavigationController.m */,
-				071621DC21F06DE2002E550E /* FGBaseViewController.m */,
-				071621DD21F06DE2002E550E /* FGBaseRefreshTableViewController.m */,
-				071621DE21F06DE2002E550E /* FGBaseTouchView.h */,
-				071621DF21F06DE2002E550E /* FGBaseTableViewCell.h */,
-				071621E021F06DE2002E550E /* FGBaseRefreshCollectionViewController.m */,
-				071621E121F06DE2002E550E /* FGPageViewController.m */,
-				071621E221F06DE2002E550E /* FGBaseView.h */,
-				071621E321F06DE2002E550E /* FGBaseRefreshTableViewController.h */,
-				071621E421F06DE2002E550E /* FGBaseViewController.h */,
-				071621E521F06DE2002E550E /* FGBaseNavigationController.h */,
-				071621E621F06DE2002E550E /* FGBaseCollectionViewCell.h */,
-				071621E721F06DE2002E550E /* FGBaseTouchView.m */,
-				071621E821F06DE2002E550E /* FGPageViewController.h */,
-				071621E921F06DE2002E550E /* FGBaseRefreshCollectionViewController.h */,
-				071621EA21F06DE2002E550E /* FGBaseTableViewCell.m */,
-				071621EB21F06DE2002E550E /* FGBaseView.m */,
-			);
-			path = BaseClass;
 			sourceTree = "<group>";
 		};
 		0716220D21F06DE2002E550E /* Helper */ = {
@@ -211,7 +146,6 @@
 				07161F1C21EF2914002E550E /* Sources */,
 				07161F1D21EF2914002E550E /* Frameworks */,
 				07161F1E21EF2914002E550E /* Resources */,
-				44E7D5C8228F422B61396EBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,30 +202,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		44E7D5C8228F422B61396EBB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FGiOSKitDemo/Pods-FGiOSKitDemo-resources.sh",
-				"${PODS_ROOT}/EasyNavigation/EasyNavigation/EasyNavButton.bundle",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EasyNavButton.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FGiOSKitDemo/Pods-FGiOSKitDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4FD897E8AD9BB6751410090D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,20 +232,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				07161F2821EF2914002E550E /* ViewController.m in Sources */,
-				0716223321F06DE2002E550E /* FGBaseRefreshTableViewController.m in Sources */,
-				0716223721F06DE2002E550E /* FGBaseTableViewCell.m in Sources */,
-				0716223621F06DE2002E550E /* FGBaseTouchView.m in Sources */,
 				0716224921F06DE2002E550E /* FGTools.m in Sources */,
-				0716223821F06DE2002E550E /* FGBaseView.m in Sources */,
-				0716223121F06DE2002E550E /* FGBaseNavigationController.m in Sources */,
-				0716225421F07AEC002E550E /* FGRefreshHeader.m in Sources */,
 				07161F3321EF2916002E550E /* main.m in Sources */,
-				0716223521F06DE2002E550E /* FGPageViewController.m in Sources */,
-				0716223021F06DE2002E550E /* FGBaseCollectionViewCell.m in Sources */,
 				07161F2521EF2914002E550E /* AppDelegate.m in Sources */,
-				0716225521F07AEC002E550E /* FGScrollView.m in Sources */,
-				0716223221F06DE2002E550E /* FGBaseViewController.m in Sources */,
-				0716223421F06DE2002E550E /* FGBaseRefreshCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
