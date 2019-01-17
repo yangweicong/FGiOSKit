@@ -7,6 +7,7 @@
 //
 
 #import <MJRefresh.h>
+#import "FGiOSKit.h"
 
 @interface FGRefreshHeader : MJRefreshGifHeader
 

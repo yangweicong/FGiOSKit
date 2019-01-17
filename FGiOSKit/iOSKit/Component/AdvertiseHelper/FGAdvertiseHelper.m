@@ -9,6 +9,9 @@
 #import "FGAdvertiseHelper.h"
 #import <AVFoundation/AVFoundation.h>
 #import "FGAdvertiseVedioView.h"
+#import "AppDelegate.h"
+#import "FGiOSKit.h"
+
 @implementation FGAdvertiseHelper
 
 + (instancetype)sharedInstance

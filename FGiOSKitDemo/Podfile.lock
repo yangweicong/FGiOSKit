@@ -14,10 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - AlipaySDK-iOS (15.5.9)
   - AliyunOSSiOS (2.10.7)
   - DACircularProgress (2.3.1)
   - EasyNavigation (1.0.5)
-  - FGiOSKit (0.0.1)
   - FLAnimatedImage (1.0.12)
   - JKCategories (1.8):
     - JKCategories/CoreData (= 1.8)
@@ -207,6 +207,7 @@ PODS:
   - UMCShare/UI (6.9.5):
     - UMCCommon
     - UMCShare/Core
+  - WechatOpenSDK (1.8.3)
   - WMPageController (2.5.2)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
@@ -214,9 +215,9 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - AlipaySDK-iOS
   - AliyunOSSiOS
   - EasyNavigation
-  - FGiOSKit
   - JKCategories
   - Masonry
   - MBProgressHUD
@@ -235,16 +236,17 @@ DEPENDENCIES:
   - UMCShare/Social/ReducedWeChat
   - UMCShare/Social/Sina
   - UMCShare/UI
+  - WechatOpenSDK
   - WMPageController
   - YYKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - AlipaySDK-iOS
     - AliyunOSSiOS
     - DACircularProgress
     - EasyNavigation
-    - FGiOSKit
     - FLAnimatedImage
     - JKCategories
     - Masonry
@@ -261,15 +263,16 @@ SPEC REPOS:
     - UMCAnalytics
     - UMCCommon
     - UMCShare
+    - WechatOpenSDK
     - WMPageController
     - YYKit
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AlipaySDK-iOS: 1c5283b30977a24acecc0114662697f7dc78f618
   AliyunOSSiOS: 602b6a4e70e62a5f0a6431c20496343141d7e66f
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   EasyNavigation: 3414769a995d032e5dd9441f2bdd4eda7dd10089
-  FGiOSKit: 45196481496222d51c41debf4a7dd1b55199c100
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   JKCategories: b62b30694ebe6d9fe5520b54ba250015dabd6dae
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -286,9 +289,10 @@ SPEC CHECKSUMS:
   UMCAnalytics: c267acd9bb4a87e5f01735c158b63a617908f92e
   UMCCommon: 79b5a614c958db367113eed5740109d9a98e1223
   UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
+  WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
   WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 37615bbda6607d45f0fb216406d23fe2eb2833fe
+PODFILE CHECKSUM: 5f8fd4db81428c97f5e8e7864416883f7d2d60cf
 
 COCOAPODS: 1.6.0.beta.2

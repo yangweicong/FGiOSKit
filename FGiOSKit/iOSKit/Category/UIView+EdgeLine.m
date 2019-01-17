@@ -7,6 +7,7 @@
 //
 
 #import "UIView+EdgeLine.h"
+#import "FGiOSKit.h"
 
 @implementation UIView (EdgeLine)
 

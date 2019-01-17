@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   spec.ios.deployment_target = "9.0"
@@ -79,20 +79,6 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/yangweicong/FGiOSKit.git", :tag => spec.version }
-
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
-  spec.source_files  = "FGiOSKit/*"
-  # spec.exclude_files = "Classes/Exclude"
-
-  # spec.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -147,5 +133,71 @@ Pod::Spec.new do |spec|
   # spec.dependency "TZImagePickerController"
   # spec.dependency 'PYPhotoBrowser'
 
+# ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  CocoaPods is smart about how it includes source code. For source files
+  #  giving a folder will include any swift, h, m, mm, c & cpp files.
+  #  For header files it will include any header in the folder.
+  #  Not including the public_header_files will make all headers public.
+  #
+
+  spec.source_files  = "FGiOSKit/*.{h,m}"
+  spec.exclude_files = "FGiOSKit/APPConfig.h"
+  spec.public_header_files = "FGiOSKit/FGiOSKit.h"
+
+#iOSKit
+  spec.subspec 'iOSKit' do |ioskit|
+#      ioskit.source_files = 'JKCategories/Foundation/**/*.{h,m}'
+#      ioskit.source_files = 'JKCategories/Foundation/**/*.{h,m}'
+#     ioskit.public_header_files = 'FGiOSKit/Foundation/JKFoundation.h'
+      # ioskit.source_files = 'FGiOSKit/iOSKit/JKFoundation.h'
+      foundation.frameworks = 'Foundation','UIKit'
+
+      #三级
+      ioskit.subspec 'BaseClass' do |baseclass|
+          baseclass.source_files = 'FGiOSKit/iOSKit/BaseClass/*.{h,m}'
+      end
+      ioskit.subspec 'Category' do |category|
+          category.source_files = 'FGiOSKit/iOSKit/Category/*.{h,m}'
+      end
+      ioskit.subspec 'Helper' do |helper|
+          helper.source_files = 'FGiOSKit/iOSKit/Helper/*.{h,m}'
+      end
+      ioskit.subspec 'WraperView' do |wraperView|
+          wraperView.source_files = 'FGiOSKit/iOSKit/WraperView/*.{h,m}'
+      end
+
+      ioskit.subspec 'Component' do |component|
+          
+          #四级
+          component.subspec 'AdvertiseHelper' do |advertiseHelper|
+              advertiseHelper.source_files = 'FGiOSKit/iOSKit/Component/AdvertiseHelper/*.{h,m}'
+          end
+          component.subspec 'AliyunOSS' do |aliyunoss|
+              aliyunoss.source_files = 'FGiOSKit/iOSKit/Component/AliyunOSS/*.{h,m}'
+          end
+          component.subspec 'AppStoreVersion' do |appstoreversion|
+              appstoreversion.source_files = 'FGiOSKit/iOSKit/Component/AppStoreVersion/*.{h,m}'
+          end
+          component.subspec 'ImagePickerController' do |imagepickercontroller|
+              imagepickercontroller.source_files = 'FGiOSKit/iOSKit/Component/ImagePickerController/*.{h,m}'
+          end
+          component.subspec 'MapManager' do |mapmanager|
+              mapmanager.source_files = 'FGiOSKit/iOSKit/Component/MapManager/*.{h,m}'
+          end
+          component.subspec 'Pay' do |pay|
+              pay.source_files = 'FGiOSKit/iOSKit/Component/Pay/*.{h,m}'
+          end
+          component.subspec 'UmengAnalytics' do |umenganalytics|
+              umenganalytics.source_files = 'FGiOSKit/iOSKit/Component/UmengAnalytics/*.{h,m}'
+          end
+          component.subspec 'UMshare' do |umshare|
+              umshare.source_files = 'FGiOSKit/iOSKit/Component/UMshare/*.{h,m}'
+          end
+          component.subspec 'WebView' do |webView|
+              webView.source_files = 'FGiOSKit/iOSKit/Component/WebView/*.{h,m}'
+          end
+      end
+  end
 
 end

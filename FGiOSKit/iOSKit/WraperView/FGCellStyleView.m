@@ -7,7 +7,7 @@
 //
 
 #import "FGCellStyleView.h"
-
+#import "FGiOSKit.h"
 
 @implementation FGTextFeidViewModel
 

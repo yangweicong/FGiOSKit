@@ -7,6 +7,7 @@
 //
 
 #import "FGPickerView.h"
+#import "FGiOSKit.h"
 
 @interface FGPickerView ()<UIPickerViewDelegate, UIPickerViewDataSource>
 @property (nonatomic, strong) UIView *containerView;

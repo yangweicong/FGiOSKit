@@ -7,6 +7,7 @@
 //
 
 #import "FGSheetPopControl.h"
+#import "FGiOSKit.h"
 
 @interface FGSheetPopControl ()
 

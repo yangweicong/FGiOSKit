@@ -19,13 +19,15 @@ target 'FGiOSKitDemo' do
     pod 'TPKeyboardAvoiding'#防止键盘遮挡
     pod 'ReactiveObjC'
     pod 'AliyunOSSiOS' #阿里云OSS
+    pod 'AlipaySDK-iOS' #支付宝支付SDK
+    pod 'WechatOpenSDK' #微信支付SDK
     #友盟
     pod 'UMCCommon'
 #    pod 'UMCSecurityPlugins' (会和支付宝SDK冲突)
     pod 'UMCAnalytics' #友盟统计
     # U-Share SDK UI模块（分享面板，建议添加）
     pod 'UMCShare/UI'
-    # 集成微信(精简版0.2M) (备注:添加完成版的回和微信支付冲突)
+    # 集成微信(精简版0.2M) (备注:添加完成版的会和微信支付冲突)
     pod 'UMCShare/Social/ReducedWeChat'
 #    # 集成微信(完整版14.4M)
 #    pod 'UMCShare/Social/WeChat'
@@ -34,6 +36,6 @@ target 'FGiOSKitDemo' do
     # 集成新浪微博(完整版25.3M)
     pod 'UMCShare/Social/Sina'
 
-    pod 'FGiOSKit'
+    # pod 'FGiOSKit', '0.0.2'
     
 end

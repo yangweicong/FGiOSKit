@@ -8,10 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import <AlipaySDK/AlipaySDK.h>
+
 //#import <WXApi.h>
 //#import <WXApiObject.h>
 #import "WXApi.h"
-#import "UPPaymentControl.h"
+//#import "UPPaymentControl.h"
 
 /**
  *  后台返回的微信支付Model

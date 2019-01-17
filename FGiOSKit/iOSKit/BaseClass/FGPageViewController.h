@@ -8,6 +8,7 @@
 
 #import <WMPageController/WMPageController.h>
 #import <EasyNavigation/EasyNavigation.h>
+
 #define  kWMMenuViewHeight  44.0
 typedef NS_ENUM(NSUInteger, WMMenuViewPosition) {
     WMMenuViewPositionDefault,

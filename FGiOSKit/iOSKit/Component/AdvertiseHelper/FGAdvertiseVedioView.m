@@ -8,6 +8,7 @@
 
 #import "FGAdvertiseVedioView.h"
 #import <AVFoundation/AVFoundation.h>
+#import "FGiOSKit.h"
 
 
 @interface FGAdvertiseVedioView()

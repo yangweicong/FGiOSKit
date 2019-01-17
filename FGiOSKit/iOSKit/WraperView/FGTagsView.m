@@ -8,6 +8,7 @@
 
 #import "FGTagsView.h"
 #import <UIImageView+YYWebImage.h>
+#import "FGiOSKit.h"
 
 @implementation FGTagModel
 

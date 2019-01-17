@@ -8,6 +8,7 @@
 
 #import "FGAppStoreVersionManager.h"
 #import <AFNetworking.h>
+#import "FGiOSKit.h"
 
 static NSString *const kFGAppId = kAppleId;  ///< 获取到当前应用的 app id 1049732608(测试用) 1318129281(美云)
 static NSString *const kAppStoreVersion = @"appStoreVersion";  ///< userDefaults key

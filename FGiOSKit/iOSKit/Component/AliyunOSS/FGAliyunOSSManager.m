@@ -7,6 +7,7 @@
 //
 
 #import "FGAliyunOSSManager.h"
+#import "FGiOSKit.h"
 
 NSString * const multipartUploadKey = @"multipartUploadObject";
 

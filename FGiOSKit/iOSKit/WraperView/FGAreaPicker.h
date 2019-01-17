@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <NSObject+YYModel.h>
 
 @interface FGCityModel : NSObject<YYModel>
 

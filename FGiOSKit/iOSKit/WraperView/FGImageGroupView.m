@@ -7,8 +7,9 @@
 //
 
 #import "FGImageGroupView.h"
-#import "HZPhotoBrowser.h"
-@interface FGImageGroupView()<UICollectionViewDelegate,UICollectionViewDataSource,HZPhotoBrowserDelegate>
+#import "FGiOSKit.h"
+
+@interface FGImageGroupView()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (nonatomic, strong) UICollectionView *collectionView;  ///< Description
 @end
 @implementation FGImageGroupView
@@ -119,20 +120,20 @@
         self.didSelectItem(indexPath);
     }
     
-    HZPhotoBrowser *photoBrowser = [HZPhotoBrowser new];
-    photoBrowser.delegate = self;
-    photoBrowser.currentImageIndex = (int)indexPath.row;
-    photoBrowser.imageCount = self.dataSource.count;
-    photoBrowser.sourceImagesContainerView = collectionView;
-    [photoBrowser show];
+//    HZPhotoBrowser *photoBrowser = [HZPhotoBrowser new];
+//    photoBrowser.delegate = self;
+//    photoBrowser.currentImageIndex = (int)indexPath.row;
+//    photoBrowser.imageCount = self.dataSource.count;
+//    photoBrowser.sourceImagesContainerView = collectionView;
+//    [photoBrowser show];
 }
 
-- (UIImage *)photoBrowser:(HZPhotoBrowser *)browser placeholderImageForIndex:(NSInteger)index{
-    return [UIImage jk_imageWithColor:[UIColor grayColor]];
-}
-- (NSURL *)photoBrowser:(HZPhotoBrowser *)browser highQualityImageURLForIndex:(NSInteger)index{
-    return [NSURL URLWithString:self.dataSource[index]];
-}
+//- (UIImage *)photoBrowser:(HZPhotoBrowser *)browser placeholderImageForIndex:(NSInteger)index{
+//    return [UIImage jk_imageWithColor:[UIColor grayColor]];
+//}
+//- (NSURL *)photoBrowser:(HZPhotoBrowser *)browser highQualityImageURLForIndex:(NSInteger)index{
+//    return [NSURL URLWithString:self.dataSource[index]];
+//}
 @end
 
 

@@ -7,6 +7,8 @@
 //
 
 #import "FGAlertView.h"
+#import "FGiOSKit.h"
+
 @interface FGAlertView ()
 
 @property (nonatomic, strong) UIView *containerView;

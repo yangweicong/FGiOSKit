@@ -8,6 +8,7 @@
 
 #import "UIViewController+FGToast.h"
 #import <objc/runtime.h>
+#import "FGiOSKit.h"
 
 static char associateLengthKey;
 

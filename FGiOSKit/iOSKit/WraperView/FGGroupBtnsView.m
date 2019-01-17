@@ -7,6 +7,7 @@
 //
 
 #import "FGGroupBtnsView.h"
+#import "FGiOSKit.h"
 #import <UIImageView+YYWebImage.h>
 
 @implementation FGGroupBtnsModel

@@ -12,6 +12,8 @@
 //#import <WXApi.h>
 #import "WXApi.h"
 #import "FGTools.h"
+#import "FGiOSKit.h"
+#import "MBProgressHUD+LMJ.h"
 
 
 @interface FGShareManager ()

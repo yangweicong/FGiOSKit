@@ -8,6 +8,7 @@
 
 #import "FGAreaPicker.h"
 #import <NSObject+YYModel.h>
+#import "FGiOSKit.h"
 
 @implementation FGCityModel
 

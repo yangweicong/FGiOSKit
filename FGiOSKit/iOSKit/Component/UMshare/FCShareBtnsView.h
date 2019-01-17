@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "FGBaseTouchView.h"
+#import "FGiOSKit.h"
 
 @interface FCShareBtnsView : FGBaseTouchView
 

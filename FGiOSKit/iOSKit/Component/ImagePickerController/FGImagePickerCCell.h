@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FGiOSKit.h"
 
 @interface FGImagePickerCCell : UICollectionViewCell
 

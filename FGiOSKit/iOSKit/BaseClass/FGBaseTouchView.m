@@ -7,6 +7,7 @@
 //
 
 #import "FGBaseTouchView.h"
+#import "FGiOSKit.h"
 
 @implementation FGBaseTouchView
 

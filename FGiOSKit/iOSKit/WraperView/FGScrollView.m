@@ -7,6 +7,7 @@
 //
 
 #import "FGScrollView.h"
+#import "FGiOSKit.h"
 
 @implementation FGScrollView
 

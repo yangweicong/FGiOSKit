@@ -7,6 +7,7 @@
 //
 
 #import "UIView+FGNew.h"
+#import "FGiOSKit.h"
 #import <JKCategories/UIView+JKVisuals.h>
 
 @implementation UIView (FGNew)

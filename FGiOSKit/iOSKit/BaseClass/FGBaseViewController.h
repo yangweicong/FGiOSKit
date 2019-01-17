@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <EasyNavigation/EasyNavigation.h>
 #import "FGScrollView.h"
+#import "FGiOSKit.h"
 
 @interface FGBaseViewController : UIViewController
 

@@ -7,6 +7,7 @@
 //
 
 #import "FGPaymentManager.h"
+#import "FGiOSKit.h"
 
 @implementation FGWXPayModel
 
@@ -139,18 +140,18 @@
 //银联支付
 - (void)uppayWithTnString:(NSString *)tnString callback:(UPPayResult)block
 {
-    if (![self isUPAppInstalled]) {
-        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"温馨提示" message:@"设备未安装银联支付app,请重新选择支付方式" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
-        [alert show];
-        return;
-    }
+//    if (![self isUPAppInstalled]) {
+//        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"温馨提示" message:@"设备未安装银联支付app,请重新选择支付方式" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+//        [alert show];
+//        return;
+//    }
     
-    if (tnString != nil && tnString.length > 0)
-    {
-        /** mode "00"代表接入生产环境（正式版本需要）；
-         "01"代表接入开发测试环境（测试版本需要）；*/
-        [[UPPaymentControl defaultControl] startPay:tnString fromScheme:kBundleId mode:@"01" viewController:nil];
-    }
+//    if (tnString != nil && tnString.length > 0)
+//    {
+//        /** mode "00"代表接入生产环境（正式版本需要）；
+//         "01"代表接入开发测试环境（测试版本需要）；*/
+//        [[UPPaymentControl defaultControl] startPay:tnString fromScheme:kBundleId mode:@"01" viewController:nil];
+//    }
 }
 
 #pragma mark UPPayPluginResult
@@ -166,9 +167,9 @@
 }
 
 //判断手机上是否安装了银联支付app
-- (BOOL)isUPAppInstalled
-{
-    return [[UPPaymentControl defaultControl] isPaymentAppInstalled];
-}
+//- (BOOL)isUPAppInstalled
+//{
+//    return [[UPPaymentControl defaultControl] isPaymentAppInstalled];
+//}
 
 @end

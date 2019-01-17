@@ -7,6 +7,7 @@
 //
 
 #import "FGBillStyleView.h"
+#import "FGiOSKit.h"
 
 @implementation FGBillModel
 

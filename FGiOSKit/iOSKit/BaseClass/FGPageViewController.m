@@ -8,7 +8,7 @@
 
 #import "FGPageViewController.h"
 #import "FGBaseNavigationController.h"
-
+#import "FGiOSKit.h"
 
 
 @interface WMPanGestureRecognizer : UIPanGestureRecognizer<UIGestureRecognizerDelegate>

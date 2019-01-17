@@ -7,6 +7,7 @@
 //
 
 #import "FGAdvertiseView.h"
+#import "FGiOSKit.h"
 
 @interface FGAdvertiseView()
 

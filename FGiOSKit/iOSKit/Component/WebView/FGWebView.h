@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <WebKit/WebKit.h>
+#import "FGiOSKit.h"
 
 @interface FGWebView : UIView<WKNavigationDelegate, WKUIDelegate>
 

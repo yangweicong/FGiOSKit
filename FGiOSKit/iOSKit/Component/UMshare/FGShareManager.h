@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UMShare/UMShare.h>
+#import "FGiOSKit.h"
 
 /**
  *  分享 Model
