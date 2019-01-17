@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FGiOSKit"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "FGiOSKit"
 
   # This description is used to generate tags and improve search results.
@@ -167,37 +167,37 @@ Pod::Spec.new do |spec|
           wraperView.source_files = 'FGiOSKit/iOSKit/WraperView/*.{h,m}'
       end
 
-      ioskit.subspec 'Component' do |component|
+      # ioskit.subspec 'Component' do |component|
           
-          #四级
-          component.subspec 'AdvertiseHelper' do |advertiseHelper|
-              advertiseHelper.source_files = 'FGiOSKit/iOSKit/Component/AdvertiseHelper/*.{h,m}'
-          end
-          component.subspec 'AliyunOSS' do |aliyunoss|
-              aliyunoss.source_files = 'FGiOSKit/iOSKit/Component/AliyunOSS/*.{h,m}'
-          end
-          component.subspec 'AppStoreVersion' do |appstoreversion|
-              appstoreversion.source_files = 'FGiOSKit/iOSKit/Component/AppStoreVersion/*.{h,m}'
-          end
-          component.subspec 'ImagePickerController' do |imagepickercontroller|
-              imagepickercontroller.source_files = 'FGiOSKit/iOSKit/Component/ImagePickerController/*.{h,m}'
-          end
-          component.subspec 'MapManager' do |mapmanager|
-              mapmanager.source_files = 'FGiOSKit/iOSKit/Component/MapManager/*.{h,m}'
-          end
-          component.subspec 'Pay' do |pay|
-              pay.source_files = 'FGiOSKit/iOSKit/Component/Pay/*.{h,m}'
-          end
-          component.subspec 'UmengAnalytics' do |umenganalytics|
-              umenganalytics.source_files = 'FGiOSKit/iOSKit/Component/UmengAnalytics/*.{h,m}'
-          end
-          component.subspec 'UMshare' do |umshare|
-              umshare.source_files = 'FGiOSKit/iOSKit/Component/UMshare/*.{h,m}'
-          end
-          component.subspec 'WebView' do |webView|
-              webView.source_files = 'FGiOSKit/iOSKit/Component/WebView/*.{h,m}'
-          end
-      end
+      #     #四级
+      #     component.subspec 'AdvertiseHelper' do |advertiseHelper|
+      #         advertiseHelper.source_files = 'FGiOSKit/iOSKit/Component/AdvertiseHelper/*.{h,m}'
+      #     end
+      #     component.subspec 'AliyunOSS' do |aliyunoss|
+      #         aliyunoss.source_files = 'FGiOSKit/iOSKit/Component/AliyunOSS/*.{h,m}'
+      #     end
+      #     component.subspec 'AppStoreVersion' do |appstoreversion|
+      #         appstoreversion.source_files = 'FGiOSKit/iOSKit/Component/AppStoreVersion/*.{h,m}'
+      #     end
+      #     component.subspec 'ImagePickerController' do |imagepickercontroller|
+      #         imagepickercontroller.source_files = 'FGiOSKit/iOSKit/Component/ImagePickerController/*.{h,m}'
+      #     end
+      #     component.subspec 'MapManager' do |mapmanager|
+      #         mapmanager.source_files = 'FGiOSKit/iOSKit/Component/MapManager/*.{h,m}'
+      #     end
+      #     component.subspec 'Pay' do |pay|
+      #         pay.source_files = 'FGiOSKit/iOSKit/Component/Pay/*.{h,m}'
+      #     end
+      #     component.subspec 'UmengAnalytics' do |umenganalytics|
+      #         umenganalytics.source_files = 'FGiOSKit/iOSKit/Component/UmengAnalytics/*.{h,m}'
+      #     end
+      #     component.subspec 'UMshare' do |umshare|
+      #         umshare.source_files = 'FGiOSKit/iOSKit/Component/UMshare/*.{h,m}'
+      #     end
+      #     component.subspec 'WebView' do |webView|
+      #         webView.source_files = 'FGiOSKit/iOSKit/Component/WebView/*.{h,m}'
+      #     end
+      # end
   end
 
 end
