@@ -13,6 +13,59 @@
 		07161F2D21EF2916002E550E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07161F2C21EF2916002E550E /* Assets.xcassets */; };
 		07161F3021EF2916002E550E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07161F2E21EF2916002E550E /* LaunchScreen.storyboard */; };
 		07161F3321EF2916002E550E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07161F3221EF2916002E550E /* main.m */; };
+		0716221521F06DE2002E550E /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716219921F06DE2002E550E /* UIViewController+Swizzle.m */; };
+		0716221621F06DE2002E550E /* UIView+FGNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716219A21F06DE2002E550E /* UIView+FGNew.m */; };
+		0716221721F06DE2002E550E /* UIViewController+FGToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716219C21F06DE2002E550E /* UIViewController+FGToast.m */; };
+		0716221821F06DE2002E550E /* UIColor+FGGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716219F21F06DE2002E550E /* UIColor+FGGradient.m */; };
+		0716221921F06DE2002E550E /* NSNumber+FGPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621A021F06DE2002E550E /* NSNumber+FGPrice.m */; };
+		0716221A21F06DE2002E550E /* MBProgressHUD+LMJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621A121F06DE2002E550E /* MBProgressHUD+LMJ.m */; };
+		0716221B21F06DE2002E550E /* UIView+EdgeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621A221F06DE2002E550E /* UIView+EdgeLine.m */; };
+		0716221C21F06DE2002E550E /* NSString+HtmlStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621A321F06DE2002E550E /* NSString+HtmlStyle.m */; };
+		0716221D21F06DE2002E550E /* NSString+FGNormalRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621A621F06DE2002E550E /* NSString+FGNormalRegex.m */; };
+		0716221E21F06DE2002E550E /* NSString+FGDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621AA21F06DE2002E550E /* NSString+FGDate.m */; };
+		0716221F21F06DE2002E550E /* FCShareBtnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621B021F06DE2002E550E /* FCShareBtnsView.m */; };
+		0716222021F06DE2002E550E /* FGShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621B121F06DE2002E550E /* FGShareManager.m */; };
+		0716222121F06DE2002E550E /* FGSharePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621B421F06DE2002E550E /* FGSharePopView.m */; };
+		0716222221F06DE2002E550E /* FGAdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621B821F06DE2002E550E /* FGAdvertiseView.m */; };
+		0716222321F06DE2002E550E /* FGAdvertiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621B921F06DE2002E550E /* FGAdvertiseHelper.m */; };
+		0716222421F06DE2002E550E /* FGAdvertiseVedioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621BA21F06DE2002E550E /* FGAdvertiseVedioView.m */; };
+		0716222521F06DE2002E550E /* FGUmengAnalyticsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621BD21F06DE2002E550E /* FGUmengAnalyticsHelper.m */; };
+		0716222621F06DE2002E550E /* FGWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621C121F06DE2002E550E /* FGWebView.m */; };
+		0716222721F06DE2002E550E /* FGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621C221F06DE2002E550E /* FGWebViewController.m */; };
+		0716222821F06DE2002E550E /* FGPaymentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621C621F06DE2002E550E /* FGPaymentManager.m */; };
+		0716222921F06DE2002E550E /* FGAliyunOSSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621C921F06DE2002E550E /* FGAliyunOSSManager.m */; };
+		0716222A21F06DE2002E550E /* FGAppStoreVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621CB21F06DE2002E550E /* FGAppStoreVersionManager.m */; };
+		0716222B21F06DE2002E550E /* LocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621CE21F06DE2002E550E /* LocationHelper.m */; };
+		0716222C21F06DE2002E550E /* FGImagePickerCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621D121F06DE2002E550E /* FGImagePickerCCell.m */; };
+		0716222D21F06DE2002E550E /* FGImagePickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621D221F06DE2002E550E /* FGImagePickerHelper.m */; };
+		0716222E21F06DE2002E550E /* FGImagePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621D321F06DE2002E550E /* FGImagePickerView.m */; };
+		0716222F21F06DE2002E550E /* LxGridViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621D821F06DE2002E550E /* LxGridViewFlowLayout.m */; };
+		0716223021F06DE2002E550E /* FGBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621DA21F06DE2002E550E /* FGBaseCollectionViewCell.m */; };
+		0716223121F06DE2002E550E /* FGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621DB21F06DE2002E550E /* FGBaseNavigationController.m */; };
+		0716223221F06DE2002E550E /* FGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621DC21F06DE2002E550E /* FGBaseViewController.m */; };
+		0716223321F06DE2002E550E /* FGBaseRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621DD21F06DE2002E550E /* FGBaseRefreshTableViewController.m */; };
+		0716223421F06DE2002E550E /* FGBaseRefreshCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621E021F06DE2002E550E /* FGBaseRefreshCollectionViewController.m */; };
+		0716223521F06DE2002E550E /* FGPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621E121F06DE2002E550E /* FGPageViewController.m */; };
+		0716223621F06DE2002E550E /* FGBaseTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621E721F06DE2002E550E /* FGBaseTouchView.m */; };
+		0716223721F06DE2002E550E /* FGBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621EA21F06DE2002E550E /* FGBaseTableViewCell.m */; };
+		0716223821F06DE2002E550E /* FGBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621EB21F06DE2002E550E /* FGBaseView.m */; };
+		0716223921F06DE2002E550E /* FGMoneyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621EE21F06DE2002E550E /* FGMoneyTextField.m */; };
+		0716223A21F06DE2002E550E /* FGSheetPopControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621F321F06DE2002E550E /* FGSheetPopControl.m */; };
+		0716223B21F06DE2002E550E /* FGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621F521F06DE2002E550E /* FGScrollView.m */; };
+		0716223C21F06DE2002E550E /* FGCellStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621F721F06DE2002E550E /* FGCellStyleView.m */; };
+		0716223D21F06DE2002E550E /* FGInsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621FA21F06DE2002E550E /* FGInsetsLabel.m */; };
+		0716223E21F06DE2002E550E /* FGPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621FB21F06DE2002E550E /* FGPickerView.m */; };
+		0716223F21F06DE2002E550E /* FGImageGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621FD21F06DE2002E550E /* FGImageGroupView.m */; };
+		0716224021F06DE2002E550E /* FGAreaPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621FE21F06DE2002E550E /* FGAreaPicker.m */; };
+		0716224121F06DE2002E550E /* FGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716220021F06DE2002E550E /* FGAlertView.m */; };
+		0716224221F06DE2002E550E /* FGPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716220121F06DE2002E550E /* FGPlaceholderTextView.m */; };
+		0716224321F06DE2002E550E /* FGEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716220321F06DE2002E550E /* FGEmptyView.m */; };
+		0716224421F06DE2002E550E /* FGTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716220521F06DE2002E550E /* FGTagsView.m */; };
+		0716224521F06DE2002E550E /* FGBillStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716220621F06DE2002E550E /* FGBillStyleView.m */; };
+		0716224621F06DE2002E550E /* FGTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716220721F06DE2002E550E /* FGTimePicker.m */; };
+		0716224721F06DE2002E550E /* FGRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716220A21F06DE2002E550E /* FGRefreshHeader.m */; };
+		0716224821F06DE2002E550E /* FGGroupBtnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716220C21F06DE2002E550E /* FGGroupBtnsView.m */; };
+		0716224921F06DE2002E550E /* FGTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716220F21F06DE2002E550E /* FGTools.m */; };
 		72C690D7B26E6DB603E0A1EF /* libPods-FGiOSKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFF1B98E3F100610792E35 /* libPods-FGiOSKitDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +81,117 @@
 		07161F3121EF2916002E550E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07161F3221EF2916002E550E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0716217021F05467002E550E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0716219921F06DE2002E550E /* UIViewController+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzle.m"; sourceTree = "<group>"; };
+		0716219A21F06DE2002E550E /* UIView+FGNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGNew.m"; sourceTree = "<group>"; };
+		0716219B21F06DE2002E550E /* NSString+HtmlStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HtmlStyle.h"; sourceTree = "<group>"; };
+		0716219C21F06DE2002E550E /* UIViewController+FGToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FGToast.m"; sourceTree = "<group>"; };
+		0716219D21F06DE2002E550E /* NSString+FGNormalRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FGNormalRegex.h"; sourceTree = "<group>"; };
+		0716219E21F06DE2002E550E /* NSString+FGDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FGDate.h"; sourceTree = "<group>"; };
+		0716219F21F06DE2002E550E /* UIColor+FGGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FGGradient.m"; sourceTree = "<group>"; };
+		071621A021F06DE2002E550E /* NSNumber+FGPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+FGPrice.m"; sourceTree = "<group>"; };
+		071621A121F06DE2002E550E /* MBProgressHUD+LMJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LMJ.m"; sourceTree = "<group>"; };
+		071621A221F06DE2002E550E /* UIView+EdgeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EdgeLine.m"; sourceTree = "<group>"; };
+		071621A321F06DE2002E550E /* NSString+HtmlStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HtmlStyle.m"; sourceTree = "<group>"; };
+		071621A421F06DE2002E550E /* UIView+FGNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FGNew.h"; sourceTree = "<group>"; };
+		071621A521F06DE2002E550E /* UIViewController+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzle.h"; sourceTree = "<group>"; };
+		071621A621F06DE2002E550E /* NSString+FGNormalRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FGNormalRegex.m"; sourceTree = "<group>"; };
+		071621A721F06DE2002E550E /* UIViewController+FGToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FGToast.h"; sourceTree = "<group>"; };
+		071621A821F06DE2002E550E /* NSNumber+FGPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+FGPrice.h"; sourceTree = "<group>"; };
+		071621A921F06DE2002E550E /* UIColor+FGGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FGGradient.h"; sourceTree = "<group>"; };
+		071621AA21F06DE2002E550E /* NSString+FGDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FGDate.m"; sourceTree = "<group>"; };
+		071621AB21F06DE2002E550E /* UIView+EdgeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EdgeLine.h"; sourceTree = "<group>"; };
+		071621AC21F06DE2002E550E /* MBProgressHUD+LMJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LMJ.h"; sourceTree = "<group>"; };
+		071621AF21F06DE2002E550E /* FGSharePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGSharePopView.h; sourceTree = "<group>"; };
+		071621B021F06DE2002E550E /* FCShareBtnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCShareBtnsView.m; sourceTree = "<group>"; };
+		071621B121F06DE2002E550E /* FGShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGShareManager.m; sourceTree = "<group>"; };
+		071621B221F06DE2002E550E /* FGShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGShareManager.h; sourceTree = "<group>"; };
+		071621B321F06DE2002E550E /* FCShareBtnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCShareBtnsView.h; sourceTree = "<group>"; };
+		071621B421F06DE2002E550E /* FGSharePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGSharePopView.m; sourceTree = "<group>"; };
+		071621B621F06DE2002E550E /* FGAdvertiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAdvertiseHelper.h; sourceTree = "<group>"; };
+		071621B721F06DE2002E550E /* FGAdvertiseVedioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAdvertiseVedioView.h; sourceTree = "<group>"; };
+		071621B821F06DE2002E550E /* FGAdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAdvertiseView.m; sourceTree = "<group>"; };
+		071621B921F06DE2002E550E /* FGAdvertiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAdvertiseHelper.m; sourceTree = "<group>"; };
+		071621BA21F06DE2002E550E /* FGAdvertiseVedioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAdvertiseVedioView.m; sourceTree = "<group>"; };
+		071621BB21F06DE2002E550E /* FGAdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAdvertiseView.h; sourceTree = "<group>"; };
+		071621BD21F06DE2002E550E /* FGUmengAnalyticsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGUmengAnalyticsHelper.m; sourceTree = "<group>"; };
+		071621BE21F06DE2002E550E /* FGUmengAnalyticsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGUmengAnalyticsHelper.h; sourceTree = "<group>"; };
+		071621C021F06DE2002E550E /* FGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGWebViewController.h; sourceTree = "<group>"; };
+		071621C121F06DE2002E550E /* FGWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGWebView.m; sourceTree = "<group>"; };
+		071621C221F06DE2002E550E /* FGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGWebViewController.m; sourceTree = "<group>"; };
+		071621C321F06DE2002E550E /* FGWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGWebView.h; sourceTree = "<group>"; };
+		071621C521F06DE2002E550E /* FGPaymentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPaymentManager.h; sourceTree = "<group>"; };
+		071621C621F06DE2002E550E /* FGPaymentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPaymentManager.m; sourceTree = "<group>"; };
+		071621C821F06DE2002E550E /* FGAliyunOSSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAliyunOSSManager.h; sourceTree = "<group>"; };
+		071621C921F06DE2002E550E /* FGAliyunOSSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAliyunOSSManager.m; sourceTree = "<group>"; };
+		071621CB21F06DE2002E550E /* FGAppStoreVersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAppStoreVersionManager.m; sourceTree = "<group>"; };
+		071621CC21F06DE2002E550E /* FGAppStoreVersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAppStoreVersionManager.h; sourceTree = "<group>"; };
+		071621CE21F06DE2002E550E /* LocationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationHelper.m; sourceTree = "<group>"; };
+		071621CF21F06DE2002E550E /* LocationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationHelper.h; sourceTree = "<group>"; };
+		071621D121F06DE2002E550E /* FGImagePickerCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGImagePickerCCell.m; sourceTree = "<group>"; };
+		071621D221F06DE2002E550E /* FGImagePickerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGImagePickerHelper.m; sourceTree = "<group>"; };
+		071621D321F06DE2002E550E /* FGImagePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGImagePickerView.m; sourceTree = "<group>"; };
+		071621D421F06DE2002E550E /* LxGridViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxGridViewFlowLayout.h; sourceTree = "<group>"; };
+		071621D521F06DE2002E550E /* FGImagePickerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGImagePickerHelper.h; sourceTree = "<group>"; };
+		071621D621F06DE2002E550E /* FGImagePickerCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGImagePickerCCell.h; sourceTree = "<group>"; };
+		071621D721F06DE2002E550E /* FGImagePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGImagePickerView.h; sourceTree = "<group>"; };
+		071621D821F06DE2002E550E /* LxGridViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxGridViewFlowLayout.m; sourceTree = "<group>"; };
+		071621DA21F06DE2002E550E /* FGBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		071621DB21F06DE2002E550E /* FGBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseNavigationController.m; sourceTree = "<group>"; };
+		071621DC21F06DE2002E550E /* FGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseViewController.m; sourceTree = "<group>"; };
+		071621DD21F06DE2002E550E /* FGBaseRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseRefreshTableViewController.m; sourceTree = "<group>"; };
+		071621DE21F06DE2002E550E /* FGBaseTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseTouchView.h; sourceTree = "<group>"; };
+		071621DF21F06DE2002E550E /* FGBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseTableViewCell.h; sourceTree = "<group>"; };
+		071621E021F06DE2002E550E /* FGBaseRefreshCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseRefreshCollectionViewController.m; sourceTree = "<group>"; };
+		071621E121F06DE2002E550E /* FGPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPageViewController.m; sourceTree = "<group>"; };
+		071621E221F06DE2002E550E /* FGBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseView.h; sourceTree = "<group>"; };
+		071621E321F06DE2002E550E /* FGBaseRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseRefreshTableViewController.h; sourceTree = "<group>"; };
+		071621E421F06DE2002E550E /* FGBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseViewController.h; sourceTree = "<group>"; };
+		071621E521F06DE2002E550E /* FGBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseNavigationController.h; sourceTree = "<group>"; };
+		071621E621F06DE2002E550E /* FGBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		071621E721F06DE2002E550E /* FGBaseTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseTouchView.m; sourceTree = "<group>"; };
+		071621E821F06DE2002E550E /* FGPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPageViewController.h; sourceTree = "<group>"; };
+		071621E921F06DE2002E550E /* FGBaseRefreshCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseRefreshCollectionViewController.h; sourceTree = "<group>"; };
+		071621EA21F06DE2002E550E /* FGBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseTableViewCell.m; sourceTree = "<group>"; };
+		071621EB21F06DE2002E550E /* FGBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseView.m; sourceTree = "<group>"; };
+		071621ED21F06DE2002E550E /* FGAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAlertView.h; sourceTree = "<group>"; };
+		071621EE21F06DE2002E550E /* FGMoneyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGMoneyTextField.m; sourceTree = "<group>"; };
+		071621EF21F06DE2002E550E /* FGAreaPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAreaPicker.h; sourceTree = "<group>"; };
+		071621F021F06DE2002E550E /* FGImageGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGImageGroupView.h; sourceTree = "<group>"; };
+		071621F121F06DE2002E550E /* FGBillStyleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBillStyleView.h; sourceTree = "<group>"; };
+		071621F221F06DE2002E550E /* FGTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGTagsView.h; sourceTree = "<group>"; };
+		071621F321F06DE2002E550E /* FGSheetPopControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGSheetPopControl.m; sourceTree = "<group>"; };
+		071621F421F06DE2002E550E /* FGEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGEmptyView.h; sourceTree = "<group>"; };
+		071621F521F06DE2002E550E /* FGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGScrollView.m; sourceTree = "<group>"; };
+		071621F621F06DE2002E550E /* FGPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPlaceholderTextView.h; sourceTree = "<group>"; };
+		071621F721F06DE2002E550E /* FGCellStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGCellStyleView.m; sourceTree = "<group>"; };
+		071621F821F06DE2002E550E /* FGGroupBtnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGGroupBtnsView.h; sourceTree = "<group>"; };
+		071621F921F06DE2002E550E /* FGRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGRefreshHeader.h; sourceTree = "<group>"; };
+		071621FA21F06DE2002E550E /* FGInsetsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGInsetsLabel.m; sourceTree = "<group>"; };
+		071621FB21F06DE2002E550E /* FGPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPickerView.m; sourceTree = "<group>"; };
+		071621FC21F06DE2002E550E /* FGTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGTimePicker.h; sourceTree = "<group>"; };
+		071621FD21F06DE2002E550E /* FGImageGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGImageGroupView.m; sourceTree = "<group>"; };
+		071621FE21F06DE2002E550E /* FGAreaPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAreaPicker.m; sourceTree = "<group>"; };
+		071621FF21F06DE2002E550E /* FGMoneyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGMoneyTextField.h; sourceTree = "<group>"; };
+		0716220021F06DE2002E550E /* FGAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAlertView.m; sourceTree = "<group>"; };
+		0716220121F06DE2002E550E /* FGPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPlaceholderTextView.m; sourceTree = "<group>"; };
+		0716220221F06DE2002E550E /* FGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGScrollView.h; sourceTree = "<group>"; };
+		0716220321F06DE2002E550E /* FGEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGEmptyView.m; sourceTree = "<group>"; };
+		0716220421F06DE2002E550E /* FGSheetPopControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGSheetPopControl.h; sourceTree = "<group>"; };
+		0716220521F06DE2002E550E /* FGTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGTagsView.m; sourceTree = "<group>"; };
+		0716220621F06DE2002E550E /* FGBillStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBillStyleView.m; sourceTree = "<group>"; };
+		0716220721F06DE2002E550E /* FGTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGTimePicker.m; sourceTree = "<group>"; };
+		0716220821F06DE2002E550E /* FGPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPickerView.h; sourceTree = "<group>"; };
+		0716220921F06DE2002E550E /* FGInsetsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGInsetsLabel.h; sourceTree = "<group>"; };
+		0716220A21F06DE2002E550E /* FGRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGRefreshHeader.m; sourceTree = "<group>"; };
+		0716220B21F06DE2002E550E /* FGCellStyleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGCellStyleView.h; sourceTree = "<group>"; };
+		0716220C21F06DE2002E550E /* FGGroupBtnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGGroupBtnsView.m; sourceTree = "<group>"; };
+		0716220E21F06DE2002E550E /* FGTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGTools.h; sourceTree = "<group>"; };
+		0716220F21F06DE2002E550E /* FGTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGTools.m; sourceTree = "<group>"; };
+		0716221021F06DE2002E550E /* FGUtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGUtilsMacro.h; sourceTree = "<group>"; };
+		0716221121F06DE2002E550E /* FGiOSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGiOSKit.h; sourceTree = "<group>"; };
+		0716221221F06DE2002E550E /* APPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPConst.h; sourceTree = "<group>"; };
+		0716221321F06DE2002E550E /* APPConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPConfig.h; sourceTree = "<group>"; };
+		0716221421F06DE2002E550E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0AF096B71A05D716DC7E3CAF /* Pods-FGiOSKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGiOSKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-FGiOSKitDemo/Pods-FGiOSKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7205F2F4C2BD3D4E362D75A2 /* Pods-FGiOSKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGiOSKitDemo.release.xcconfig"; path = "Target Support Files/Pods-FGiOSKitDemo/Pods-FGiOSKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7BEFF1B98E3F100610792E35 /* libPods-FGiOSKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FGiOSKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +230,7 @@
 		07161F2221EF2914002E550E /* FGiOSKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0716219621F06DE2002E550E /* FGiOSKit */,
 				07161F2321EF2914002E550E /* AppDelegate.h */,
 				07161F2421EF2914002E550E /* AppDelegate.m */,
 				07161F2621EF2914002E550E /* ViewController.h */,
@@ -77,6 +242,245 @@
 				07161F3221EF2916002E550E /* main.m */,
 			);
 			path = FGiOSKitDemo;
+			sourceTree = "<group>";
+		};
+		0716219621F06DE2002E550E /* FGiOSKit */ = {
+			isa = PBXGroup;
+			children = (
+				0716219721F06DE2002E550E /* iOSKit */,
+				0716221121F06DE2002E550E /* FGiOSKit.h */,
+				0716221221F06DE2002E550E /* APPConst.h */,
+				0716221321F06DE2002E550E /* APPConfig.h */,
+				0716221421F06DE2002E550E /* PrefixHeader.pch */,
+			);
+			name = FGiOSKit;
+			path = ../../FGiOSKit;
+			sourceTree = "<group>";
+		};
+		0716219721F06DE2002E550E /* iOSKit */ = {
+			isa = PBXGroup;
+			children = (
+				0716219821F06DE2002E550E /* Category */,
+				071621AD21F06DE2002E550E /* Component */,
+				071621D921F06DE2002E550E /* BaseClass */,
+				071621EC21F06DE2002E550E /* WraperView */,
+				0716220D21F06DE2002E550E /* Helper */,
+			);
+			path = iOSKit;
+			sourceTree = "<group>";
+		};
+		0716219821F06DE2002E550E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0716219921F06DE2002E550E /* UIViewController+Swizzle.m */,
+				0716219A21F06DE2002E550E /* UIView+FGNew.m */,
+				0716219B21F06DE2002E550E /* NSString+HtmlStyle.h */,
+				0716219C21F06DE2002E550E /* UIViewController+FGToast.m */,
+				0716219D21F06DE2002E550E /* NSString+FGNormalRegex.h */,
+				0716219E21F06DE2002E550E /* NSString+FGDate.h */,
+				0716219F21F06DE2002E550E /* UIColor+FGGradient.m */,
+				071621A021F06DE2002E550E /* NSNumber+FGPrice.m */,
+				071621A121F06DE2002E550E /* MBProgressHUD+LMJ.m */,
+				071621A221F06DE2002E550E /* UIView+EdgeLine.m */,
+				071621A321F06DE2002E550E /* NSString+HtmlStyle.m */,
+				071621A421F06DE2002E550E /* UIView+FGNew.h */,
+				071621A521F06DE2002E550E /* UIViewController+Swizzle.h */,
+				071621A621F06DE2002E550E /* NSString+FGNormalRegex.m */,
+				071621A721F06DE2002E550E /* UIViewController+FGToast.h */,
+				071621A821F06DE2002E550E /* NSNumber+FGPrice.h */,
+				071621A921F06DE2002E550E /* UIColor+FGGradient.h */,
+				071621AA21F06DE2002E550E /* NSString+FGDate.m */,
+				071621AB21F06DE2002E550E /* UIView+EdgeLine.h */,
+				071621AC21F06DE2002E550E /* MBProgressHUD+LMJ.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		071621AD21F06DE2002E550E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				071621AE21F06DE2002E550E /* UMshare */,
+				071621B521F06DE2002E550E /* AdvertiseHelper */,
+				071621BC21F06DE2002E550E /* UmengAnalytics */,
+				071621BF21F06DE2002E550E /* WebView */,
+				071621C421F06DE2002E550E /* Pay */,
+				071621C721F06DE2002E550E /* AliyunOSS */,
+				071621CA21F06DE2002E550E /* AppStoreVersion */,
+				071621CD21F06DE2002E550E /* MapManager */,
+				071621D021F06DE2002E550E /* ImagePickerController */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		071621AE21F06DE2002E550E /* UMshare */ = {
+			isa = PBXGroup;
+			children = (
+				071621AF21F06DE2002E550E /* FGSharePopView.h */,
+				071621B021F06DE2002E550E /* FCShareBtnsView.m */,
+				071621B121F06DE2002E550E /* FGShareManager.m */,
+				071621B221F06DE2002E550E /* FGShareManager.h */,
+				071621B321F06DE2002E550E /* FCShareBtnsView.h */,
+				071621B421F06DE2002E550E /* FGSharePopView.m */,
+			);
+			path = UMshare;
+			sourceTree = "<group>";
+		};
+		071621B521F06DE2002E550E /* AdvertiseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				071621B621F06DE2002E550E /* FGAdvertiseHelper.h */,
+				071621B721F06DE2002E550E /* FGAdvertiseVedioView.h */,
+				071621B821F06DE2002E550E /* FGAdvertiseView.m */,
+				071621B921F06DE2002E550E /* FGAdvertiseHelper.m */,
+				071621BA21F06DE2002E550E /* FGAdvertiseVedioView.m */,
+				071621BB21F06DE2002E550E /* FGAdvertiseView.h */,
+			);
+			path = AdvertiseHelper;
+			sourceTree = "<group>";
+		};
+		071621BC21F06DE2002E550E /* UmengAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				071621BD21F06DE2002E550E /* FGUmengAnalyticsHelper.m */,
+				071621BE21F06DE2002E550E /* FGUmengAnalyticsHelper.h */,
+			);
+			path = UmengAnalytics;
+			sourceTree = "<group>";
+		};
+		071621BF21F06DE2002E550E /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				071621C021F06DE2002E550E /* FGWebViewController.h */,
+				071621C121F06DE2002E550E /* FGWebView.m */,
+				071621C221F06DE2002E550E /* FGWebViewController.m */,
+				071621C321F06DE2002E550E /* FGWebView.h */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		071621C421F06DE2002E550E /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				071621C521F06DE2002E550E /* FGPaymentManager.h */,
+				071621C621F06DE2002E550E /* FGPaymentManager.m */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		071621C721F06DE2002E550E /* AliyunOSS */ = {
+			isa = PBXGroup;
+			children = (
+				071621C821F06DE2002E550E /* FGAliyunOSSManager.h */,
+				071621C921F06DE2002E550E /* FGAliyunOSSManager.m */,
+			);
+			path = AliyunOSS;
+			sourceTree = "<group>";
+		};
+		071621CA21F06DE2002E550E /* AppStoreVersion */ = {
+			isa = PBXGroup;
+			children = (
+				071621CB21F06DE2002E550E /* FGAppStoreVersionManager.m */,
+				071621CC21F06DE2002E550E /* FGAppStoreVersionManager.h */,
+			);
+			path = AppStoreVersion;
+			sourceTree = "<group>";
+		};
+		071621CD21F06DE2002E550E /* MapManager */ = {
+			isa = PBXGroup;
+			children = (
+				071621CE21F06DE2002E550E /* LocationHelper.m */,
+				071621CF21F06DE2002E550E /* LocationHelper.h */,
+			);
+			path = MapManager;
+			sourceTree = "<group>";
+		};
+		071621D021F06DE2002E550E /* ImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				071621D121F06DE2002E550E /* FGImagePickerCCell.m */,
+				071621D221F06DE2002E550E /* FGImagePickerHelper.m */,
+				071621D321F06DE2002E550E /* FGImagePickerView.m */,
+				071621D421F06DE2002E550E /* LxGridViewFlowLayout.h */,
+				071621D521F06DE2002E550E /* FGImagePickerHelper.h */,
+				071621D621F06DE2002E550E /* FGImagePickerCCell.h */,
+				071621D721F06DE2002E550E /* FGImagePickerView.h */,
+				071621D821F06DE2002E550E /* LxGridViewFlowLayout.m */,
+			);
+			path = ImagePickerController;
+			sourceTree = "<group>";
+		};
+		071621D921F06DE2002E550E /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				071621DA21F06DE2002E550E /* FGBaseCollectionViewCell.m */,
+				071621DB21F06DE2002E550E /* FGBaseNavigationController.m */,
+				071621DC21F06DE2002E550E /* FGBaseViewController.m */,
+				071621DD21F06DE2002E550E /* FGBaseRefreshTableViewController.m */,
+				071621DE21F06DE2002E550E /* FGBaseTouchView.h */,
+				071621DF21F06DE2002E550E /* FGBaseTableViewCell.h */,
+				071621E021F06DE2002E550E /* FGBaseRefreshCollectionViewController.m */,
+				071621E121F06DE2002E550E /* FGPageViewController.m */,
+				071621E221F06DE2002E550E /* FGBaseView.h */,
+				071621E321F06DE2002E550E /* FGBaseRefreshTableViewController.h */,
+				071621E421F06DE2002E550E /* FGBaseViewController.h */,
+				071621E521F06DE2002E550E /* FGBaseNavigationController.h */,
+				071621E621F06DE2002E550E /* FGBaseCollectionViewCell.h */,
+				071621E721F06DE2002E550E /* FGBaseTouchView.m */,
+				071621E821F06DE2002E550E /* FGPageViewController.h */,
+				071621E921F06DE2002E550E /* FGBaseRefreshCollectionViewController.h */,
+				071621EA21F06DE2002E550E /* FGBaseTableViewCell.m */,
+				071621EB21F06DE2002E550E /* FGBaseView.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		071621EC21F06DE2002E550E /* WraperView */ = {
+			isa = PBXGroup;
+			children = (
+				071621ED21F06DE2002E550E /* FGAlertView.h */,
+				071621EE21F06DE2002E550E /* FGMoneyTextField.m */,
+				071621EF21F06DE2002E550E /* FGAreaPicker.h */,
+				071621F021F06DE2002E550E /* FGImageGroupView.h */,
+				071621F121F06DE2002E550E /* FGBillStyleView.h */,
+				071621F221F06DE2002E550E /* FGTagsView.h */,
+				071621F321F06DE2002E550E /* FGSheetPopControl.m */,
+				071621F421F06DE2002E550E /* FGEmptyView.h */,
+				071621F521F06DE2002E550E /* FGScrollView.m */,
+				071621F621F06DE2002E550E /* FGPlaceholderTextView.h */,
+				071621F721F06DE2002E550E /* FGCellStyleView.m */,
+				071621F821F06DE2002E550E /* FGGroupBtnsView.h */,
+				071621F921F06DE2002E550E /* FGRefreshHeader.h */,
+				071621FA21F06DE2002E550E /* FGInsetsLabel.m */,
+				071621FB21F06DE2002E550E /* FGPickerView.m */,
+				071621FC21F06DE2002E550E /* FGTimePicker.h */,
+				071621FD21F06DE2002E550E /* FGImageGroupView.m */,
+				071621FE21F06DE2002E550E /* FGAreaPicker.m */,
+				071621FF21F06DE2002E550E /* FGMoneyTextField.h */,
+				0716220021F06DE2002E550E /* FGAlertView.m */,
+				0716220121F06DE2002E550E /* FGPlaceholderTextView.m */,
+				0716220221F06DE2002E550E /* FGScrollView.h */,
+				0716220321F06DE2002E550E /* FGEmptyView.m */,
+				0716220421F06DE2002E550E /* FGSheetPopControl.h */,
+				0716220521F06DE2002E550E /* FGTagsView.m */,
+				0716220621F06DE2002E550E /* FGBillStyleView.m */,
+				0716220721F06DE2002E550E /* FGTimePicker.m */,
+				0716220821F06DE2002E550E /* FGPickerView.h */,
+				0716220921F06DE2002E550E /* FGInsetsLabel.h */,
+				0716220A21F06DE2002E550E /* FGRefreshHeader.m */,
+				0716220B21F06DE2002E550E /* FGCellStyleView.h */,
+				0716220C21F06DE2002E550E /* FGGroupBtnsView.m */,
+			);
+			path = WraperView;
+			sourceTree = "<group>";
+		};
+		0716220D21F06DE2002E550E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0716220E21F06DE2002E550E /* FGTools.h */,
+				0716220F21F06DE2002E550E /* FGTools.m */,
+				0716221021F06DE2002E550E /* FGUtilsMacro.h */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		8831B0AA201A0D8384EA1C60 /* Pods */ = {
@@ -228,9 +632,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0716223A21F06DE2002E550E /* FGSheetPopControl.m in Sources */,
+				0716222821F06DE2002E550E /* FGPaymentManager.m in Sources */,
+				0716222321F06DE2002E550E /* FGAdvertiseHelper.m in Sources */,
+				0716224621F06DE2002E550E /* FGTimePicker.m in Sources */,
+				0716222D21F06DE2002E550E /* FGImagePickerHelper.m in Sources */,
+				0716222A21F06DE2002E550E /* FGAppStoreVersionManager.m in Sources */,
+				0716221C21F06DE2002E550E /* NSString+HtmlStyle.m in Sources */,
 				07161F2821EF2914002E550E /* ViewController.m in Sources */,
+				0716221F21F06DE2002E550E /* FCShareBtnsView.m in Sources */,
+				0716223321F06DE2002E550E /* FGBaseRefreshTableViewController.m in Sources */,
+				0716221B21F06DE2002E550E /* UIView+EdgeLine.m in Sources */,
+				0716223721F06DE2002E550E /* FGBaseTableViewCell.m in Sources */,
+				0716222F21F06DE2002E550E /* LxGridViewFlowLayout.m in Sources */,
+				0716224221F06DE2002E550E /* FGPlaceholderTextView.m in Sources */,
+				0716224821F06DE2002E550E /* FGGroupBtnsView.m in Sources */,
+				0716224321F06DE2002E550E /* FGEmptyView.m in Sources */,
+				0716223E21F06DE2002E550E /* FGPickerView.m in Sources */,
+				0716223921F06DE2002E550E /* FGMoneyTextField.m in Sources */,
+				0716222921F06DE2002E550E /* FGAliyunOSSManager.m in Sources */,
+				0716224021F06DE2002E550E /* FGAreaPicker.m in Sources */,
+				0716223621F06DE2002E550E /* FGBaseTouchView.m in Sources */,
+				0716222221F06DE2002E550E /* FGAdvertiseView.m in Sources */,
+				0716224721F06DE2002E550E /* FGRefreshHeader.m in Sources */,
+				0716222E21F06DE2002E550E /* FGImagePickerView.m in Sources */,
+				0716221A21F06DE2002E550E /* MBProgressHUD+LMJ.m in Sources */,
+				0716223B21F06DE2002E550E /* FGScrollView.m in Sources */,
+				0716224921F06DE2002E550E /* FGTools.m in Sources */,
+				0716222B21F06DE2002E550E /* LocationHelper.m in Sources */,
+				0716222121F06DE2002E550E /* FGSharePopView.m in Sources */,
+				0716223821F06DE2002E550E /* FGBaseView.m in Sources */,
+				0716224421F06DE2002E550E /* FGTagsView.m in Sources */,
+				0716221721F06DE2002E550E /* UIViewController+FGToast.m in Sources */,
+				0716221921F06DE2002E550E /* NSNumber+FGPrice.m in Sources */,
+				0716221521F06DE2002E550E /* UIViewController+Swizzle.m in Sources */,
+				0716222021F06DE2002E550E /* FGShareManager.m in Sources */,
+				0716223121F06DE2002E550E /* FGBaseNavigationController.m in Sources */,
+				0716222521F06DE2002E550E /* FGUmengAnalyticsHelper.m in Sources */,
+				0716223F21F06DE2002E550E /* FGImageGroupView.m in Sources */,
 				07161F3321EF2916002E550E /* main.m in Sources */,
+				0716222621F06DE2002E550E /* FGWebView.m in Sources */,
+				0716223C21F06DE2002E550E /* FGCellStyleView.m in Sources */,
+				0716221E21F06DE2002E550E /* NSString+FGDate.m in Sources */,
+				0716222421F06DE2002E550E /* FGAdvertiseVedioView.m in Sources */,
+				0716223D21F06DE2002E550E /* FGInsetsLabel.m in Sources */,
+				0716224521F06DE2002E550E /* FGBillStyleView.m in Sources */,
+				0716223521F06DE2002E550E /* FGPageViewController.m in Sources */,
+				0716221621F06DE2002E550E /* UIView+FGNew.m in Sources */,
+				0716223021F06DE2002E550E /* FGBaseCollectionViewCell.m in Sources */,
+				0716224121F06DE2002E550E /* FGAlertView.m in Sources */,
+				0716222721F06DE2002E550E /* FGWebViewController.m in Sources */,
 				07161F2521EF2914002E550E /* AppDelegate.m in Sources */,
+				0716222C21F06DE2002E550E /* FGImagePickerCCell.m in Sources */,
+				0716223221F06DE2002E550E /* FGBaseViewController.m in Sources */,
+				0716221821F06DE2002E550E /* UIColor+FGGradient.m in Sources */,
+				0716221D21F06DE2002E550E /* NSString+FGNormalRegex.m in Sources */,
+				0716223421F06DE2002E550E /* FGBaseRefreshCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
