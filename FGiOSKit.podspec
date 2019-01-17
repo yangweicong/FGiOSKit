@@ -153,7 +153,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "FGiOSKit/*"
+  spec.source_files  = "FGiOSKit/FGiOSKit.h"
   # spec.exclude_files = "FGiOSKit/APPConfig.h"
   spec.public_header_files = "FGiOSKit/FGiOSKit.h"
 
@@ -162,7 +162,7 @@ Pod::Spec.new do |spec|
 #      ioskit.source_files = 'JKCategories/Foundation/**/*.{h,m}'
 #      ioskit.source_files = 'JKCategories/Foundation/**/*.{h,m}'
 #     ioskit.public_header_files = 'FGiOSKit/Foundation/JKFoundation.h'
-      # ioskit.source_files = 'FGiOSKit/iOSKit/JKFoundation.h'
+      ioskit.source_files = 'FGiOSKit/iOSKit/*.{h,m'
       # ioskit.frameworks = 'Foundation','UIKit'
 
       #三级
