@@ -11,8 +11,8 @@
 
 #pragma mark - 第三方库
 
-#import <Masonry.h>
-#import <ReactiveObjC/ReactiveObjC.h>
+//#import <Masonry.h>
+//#import <ReactiveObjC/ReactiveObjC.h>
 //#import <UIImageView+WebCache.h>
 //#import <UIButton+WebCache.h>
 #import <JKUIKit.h>
@@ -20,10 +20,10 @@
 
 #pragma mark - 基类
 
-#import "FGBaseViewController.h"
-#import "FGBaseNavigationController.h"
+//#import "FGBaseViewController.h"
+//#import "FGBaseNavigationController.h"
 //#import "FGEmptyView.h"     //占位图
-#import "FGUtilsMacro.h"    //宏
+//#import "FGUtilsMacro.h"    //宏
 //#import "FGAlertView.h"     //提示框
 #import "FGTools.h"     //工具类
 

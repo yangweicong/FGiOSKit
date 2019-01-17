@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FGiOSKit"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "FGiOSKit"
 
   # This description is used to generate tags and improve search results.
@@ -129,9 +129,9 @@ Pod::Spec.new do |spec|
   # spec.dependency "ReactiveObjC"
   # spec.dependency "UITableView+FDTemplateLayoutCell"
   # spec.dependency "WMPageController"
-  # spec.dependency "JKCategories"
+  spec.dependency "JKCategories"
   # spec.dependency "TZImagePickerController"
-  
+
   # spec.dependency "SDCycleScrollView"
   # spec.dependency "YYKit"
   # spec.dependency 'PYPhotoBrowser'
