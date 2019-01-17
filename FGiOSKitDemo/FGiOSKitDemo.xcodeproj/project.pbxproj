@@ -13,7 +13,6 @@
 		07161F2D21EF2916002E550E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07161F2C21EF2916002E550E /* Assets.xcassets */; };
 		07161F3021EF2916002E550E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07161F2E21EF2916002E550E /* LaunchScreen.storyboard */; };
 		07161F3321EF2916002E550E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07161F3221EF2916002E550E /* main.m */; };
-		0716221521F06DE2002E550E /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716219921F06DE2002E550E /* UIViewController+Swizzle.m */; };
 		0716221621F06DE2002E550E /* UIView+FGNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716219A21F06DE2002E550E /* UIView+FGNew.m */; };
 		0716221721F06DE2002E550E /* UIViewController+FGToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716219C21F06DE2002E550E /* UIViewController+FGToast.m */; };
 		0716221821F06DE2002E550E /* UIColor+FGGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716219F21F06DE2002E550E /* UIColor+FGGradient.m */; };
@@ -23,23 +22,6 @@
 		0716221C21F06DE2002E550E /* NSString+HtmlStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621A321F06DE2002E550E /* NSString+HtmlStyle.m */; };
 		0716221D21F06DE2002E550E /* NSString+FGNormalRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621A621F06DE2002E550E /* NSString+FGNormalRegex.m */; };
 		0716221E21F06DE2002E550E /* NSString+FGDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621AA21F06DE2002E550E /* NSString+FGDate.m */; };
-		0716221F21F06DE2002E550E /* FCShareBtnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621B021F06DE2002E550E /* FCShareBtnsView.m */; };
-		0716222021F06DE2002E550E /* FGShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621B121F06DE2002E550E /* FGShareManager.m */; };
-		0716222121F06DE2002E550E /* FGSharePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621B421F06DE2002E550E /* FGSharePopView.m */; };
-		0716222221F06DE2002E550E /* FGAdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621B821F06DE2002E550E /* FGAdvertiseView.m */; };
-		0716222321F06DE2002E550E /* FGAdvertiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621B921F06DE2002E550E /* FGAdvertiseHelper.m */; };
-		0716222421F06DE2002E550E /* FGAdvertiseVedioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621BA21F06DE2002E550E /* FGAdvertiseVedioView.m */; };
-		0716222521F06DE2002E550E /* FGUmengAnalyticsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621BD21F06DE2002E550E /* FGUmengAnalyticsHelper.m */; };
-		0716222621F06DE2002E550E /* FGWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621C121F06DE2002E550E /* FGWebView.m */; };
-		0716222721F06DE2002E550E /* FGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621C221F06DE2002E550E /* FGWebViewController.m */; };
-		0716222821F06DE2002E550E /* FGPaymentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621C621F06DE2002E550E /* FGPaymentManager.m */; };
-		0716222921F06DE2002E550E /* FGAliyunOSSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621C921F06DE2002E550E /* FGAliyunOSSManager.m */; };
-		0716222A21F06DE2002E550E /* FGAppStoreVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621CB21F06DE2002E550E /* FGAppStoreVersionManager.m */; };
-		0716222B21F06DE2002E550E /* LocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621CE21F06DE2002E550E /* LocationHelper.m */; };
-		0716222C21F06DE2002E550E /* FGImagePickerCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621D121F06DE2002E550E /* FGImagePickerCCell.m */; };
-		0716222D21F06DE2002E550E /* FGImagePickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621D221F06DE2002E550E /* FGImagePickerHelper.m */; };
-		0716222E21F06DE2002E550E /* FGImagePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621D321F06DE2002E550E /* FGImagePickerView.m */; };
-		0716222F21F06DE2002E550E /* LxGridViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621D821F06DE2002E550E /* LxGridViewFlowLayout.m */; };
 		0716223021F06DE2002E550E /* FGBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621DA21F06DE2002E550E /* FGBaseCollectionViewCell.m */; };
 		0716223121F06DE2002E550E /* FGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621DB21F06DE2002E550E /* FGBaseNavigationController.m */; };
 		0716223221F06DE2002E550E /* FGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071621DC21F06DE2002E550E /* FGBaseViewController.m */; };
@@ -81,7 +63,6 @@
 		07161F3121EF2916002E550E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07161F3221EF2916002E550E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0716217021F05467002E550E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		0716219921F06DE2002E550E /* UIViewController+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzle.m"; sourceTree = "<group>"; };
 		0716219A21F06DE2002E550E /* UIView+FGNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGNew.m"; sourceTree = "<group>"; };
 		0716219B21F06DE2002E550E /* NSString+HtmlStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HtmlStyle.h"; sourceTree = "<group>"; };
 		0716219C21F06DE2002E550E /* UIViewController+FGToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FGToast.m"; sourceTree = "<group>"; };
@@ -93,7 +74,6 @@
 		071621A221F06DE2002E550E /* UIView+EdgeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EdgeLine.m"; sourceTree = "<group>"; };
 		071621A321F06DE2002E550E /* NSString+HtmlStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HtmlStyle.m"; sourceTree = "<group>"; };
 		071621A421F06DE2002E550E /* UIView+FGNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FGNew.h"; sourceTree = "<group>"; };
-		071621A521F06DE2002E550E /* UIViewController+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzle.h"; sourceTree = "<group>"; };
 		071621A621F06DE2002E550E /* NSString+FGNormalRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FGNormalRegex.m"; sourceTree = "<group>"; };
 		071621A721F06DE2002E550E /* UIViewController+FGToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FGToast.h"; sourceTree = "<group>"; };
 		071621A821F06DE2002E550E /* NSNumber+FGPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+FGPrice.h"; sourceTree = "<group>"; };
@@ -101,40 +81,6 @@
 		071621AA21F06DE2002E550E /* NSString+FGDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FGDate.m"; sourceTree = "<group>"; };
 		071621AB21F06DE2002E550E /* UIView+EdgeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EdgeLine.h"; sourceTree = "<group>"; };
 		071621AC21F06DE2002E550E /* MBProgressHUD+LMJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LMJ.h"; sourceTree = "<group>"; };
-		071621AF21F06DE2002E550E /* FGSharePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGSharePopView.h; sourceTree = "<group>"; };
-		071621B021F06DE2002E550E /* FCShareBtnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCShareBtnsView.m; sourceTree = "<group>"; };
-		071621B121F06DE2002E550E /* FGShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGShareManager.m; sourceTree = "<group>"; };
-		071621B221F06DE2002E550E /* FGShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGShareManager.h; sourceTree = "<group>"; };
-		071621B321F06DE2002E550E /* FCShareBtnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCShareBtnsView.h; sourceTree = "<group>"; };
-		071621B421F06DE2002E550E /* FGSharePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGSharePopView.m; sourceTree = "<group>"; };
-		071621B621F06DE2002E550E /* FGAdvertiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAdvertiseHelper.h; sourceTree = "<group>"; };
-		071621B721F06DE2002E550E /* FGAdvertiseVedioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAdvertiseVedioView.h; sourceTree = "<group>"; };
-		071621B821F06DE2002E550E /* FGAdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAdvertiseView.m; sourceTree = "<group>"; };
-		071621B921F06DE2002E550E /* FGAdvertiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAdvertiseHelper.m; sourceTree = "<group>"; };
-		071621BA21F06DE2002E550E /* FGAdvertiseVedioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAdvertiseVedioView.m; sourceTree = "<group>"; };
-		071621BB21F06DE2002E550E /* FGAdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAdvertiseView.h; sourceTree = "<group>"; };
-		071621BD21F06DE2002E550E /* FGUmengAnalyticsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGUmengAnalyticsHelper.m; sourceTree = "<group>"; };
-		071621BE21F06DE2002E550E /* FGUmengAnalyticsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGUmengAnalyticsHelper.h; sourceTree = "<group>"; };
-		071621C021F06DE2002E550E /* FGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGWebViewController.h; sourceTree = "<group>"; };
-		071621C121F06DE2002E550E /* FGWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGWebView.m; sourceTree = "<group>"; };
-		071621C221F06DE2002E550E /* FGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGWebViewController.m; sourceTree = "<group>"; };
-		071621C321F06DE2002E550E /* FGWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGWebView.h; sourceTree = "<group>"; };
-		071621C521F06DE2002E550E /* FGPaymentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPaymentManager.h; sourceTree = "<group>"; };
-		071621C621F06DE2002E550E /* FGPaymentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPaymentManager.m; sourceTree = "<group>"; };
-		071621C821F06DE2002E550E /* FGAliyunOSSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAliyunOSSManager.h; sourceTree = "<group>"; };
-		071621C921F06DE2002E550E /* FGAliyunOSSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAliyunOSSManager.m; sourceTree = "<group>"; };
-		071621CB21F06DE2002E550E /* FGAppStoreVersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAppStoreVersionManager.m; sourceTree = "<group>"; };
-		071621CC21F06DE2002E550E /* FGAppStoreVersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAppStoreVersionManager.h; sourceTree = "<group>"; };
-		071621CE21F06DE2002E550E /* LocationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationHelper.m; sourceTree = "<group>"; };
-		071621CF21F06DE2002E550E /* LocationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationHelper.h; sourceTree = "<group>"; };
-		071621D121F06DE2002E550E /* FGImagePickerCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGImagePickerCCell.m; sourceTree = "<group>"; };
-		071621D221F06DE2002E550E /* FGImagePickerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGImagePickerHelper.m; sourceTree = "<group>"; };
-		071621D321F06DE2002E550E /* FGImagePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGImagePickerView.m; sourceTree = "<group>"; };
-		071621D421F06DE2002E550E /* LxGridViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxGridViewFlowLayout.h; sourceTree = "<group>"; };
-		071621D521F06DE2002E550E /* FGImagePickerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGImagePickerHelper.h; sourceTree = "<group>"; };
-		071621D621F06DE2002E550E /* FGImagePickerCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGImagePickerCCell.h; sourceTree = "<group>"; };
-		071621D721F06DE2002E550E /* FGImagePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGImagePickerView.h; sourceTree = "<group>"; };
-		071621D821F06DE2002E550E /* LxGridViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxGridViewFlowLayout.m; sourceTree = "<group>"; };
 		071621DA21F06DE2002E550E /* FGBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseCollectionViewCell.m; sourceTree = "<group>"; };
 		071621DB21F06DE2002E550E /* FGBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseNavigationController.m; sourceTree = "<group>"; };
 		071621DC21F06DE2002E550E /* FGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseViewController.m; sourceTree = "<group>"; };
@@ -261,7 +207,6 @@
 			isa = PBXGroup;
 			children = (
 				0716219821F06DE2002E550E /* Category */,
-				071621AD21F06DE2002E550E /* Component */,
 				071621D921F06DE2002E550E /* BaseClass */,
 				071621EC21F06DE2002E550E /* WraperView */,
 				0716220D21F06DE2002E550E /* Helper */,
@@ -272,7 +217,6 @@
 		0716219821F06DE2002E550E /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				0716219921F06DE2002E550E /* UIViewController+Swizzle.m */,
 				0716219A21F06DE2002E550E /* UIView+FGNew.m */,
 				0716219B21F06DE2002E550E /* NSString+HtmlStyle.h */,
 				0716219C21F06DE2002E550E /* UIViewController+FGToast.m */,
@@ -284,7 +228,6 @@
 				071621A221F06DE2002E550E /* UIView+EdgeLine.m */,
 				071621A321F06DE2002E550E /* NSString+HtmlStyle.m */,
 				071621A421F06DE2002E550E /* UIView+FGNew.h */,
-				071621A521F06DE2002E550E /* UIViewController+Swizzle.h */,
 				071621A621F06DE2002E550E /* NSString+FGNormalRegex.m */,
 				071621A721F06DE2002E550E /* UIViewController+FGToast.h */,
 				071621A821F06DE2002E550E /* NSNumber+FGPrice.h */,
@@ -294,119 +237,6 @@
 				071621AC21F06DE2002E550E /* MBProgressHUD+LMJ.h */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		071621AD21F06DE2002E550E /* Component */ = {
-			isa = PBXGroup;
-			children = (
-				071621AE21F06DE2002E550E /* UMshare */,
-				071621B521F06DE2002E550E /* AdvertiseHelper */,
-				071621BC21F06DE2002E550E /* UmengAnalytics */,
-				071621BF21F06DE2002E550E /* WebView */,
-				071621C421F06DE2002E550E /* Pay */,
-				071621C721F06DE2002E550E /* AliyunOSS */,
-				071621CA21F06DE2002E550E /* AppStoreVersion */,
-				071621CD21F06DE2002E550E /* MapManager */,
-				071621D021F06DE2002E550E /* ImagePickerController */,
-			);
-			path = Component;
-			sourceTree = "<group>";
-		};
-		071621AE21F06DE2002E550E /* UMshare */ = {
-			isa = PBXGroup;
-			children = (
-				071621AF21F06DE2002E550E /* FGSharePopView.h */,
-				071621B021F06DE2002E550E /* FCShareBtnsView.m */,
-				071621B121F06DE2002E550E /* FGShareManager.m */,
-				071621B221F06DE2002E550E /* FGShareManager.h */,
-				071621B321F06DE2002E550E /* FCShareBtnsView.h */,
-				071621B421F06DE2002E550E /* FGSharePopView.m */,
-			);
-			path = UMshare;
-			sourceTree = "<group>";
-		};
-		071621B521F06DE2002E550E /* AdvertiseHelper */ = {
-			isa = PBXGroup;
-			children = (
-				071621B621F06DE2002E550E /* FGAdvertiseHelper.h */,
-				071621B721F06DE2002E550E /* FGAdvertiseVedioView.h */,
-				071621B821F06DE2002E550E /* FGAdvertiseView.m */,
-				071621B921F06DE2002E550E /* FGAdvertiseHelper.m */,
-				071621BA21F06DE2002E550E /* FGAdvertiseVedioView.m */,
-				071621BB21F06DE2002E550E /* FGAdvertiseView.h */,
-			);
-			path = AdvertiseHelper;
-			sourceTree = "<group>";
-		};
-		071621BC21F06DE2002E550E /* UmengAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				071621BD21F06DE2002E550E /* FGUmengAnalyticsHelper.m */,
-				071621BE21F06DE2002E550E /* FGUmengAnalyticsHelper.h */,
-			);
-			path = UmengAnalytics;
-			sourceTree = "<group>";
-		};
-		071621BF21F06DE2002E550E /* WebView */ = {
-			isa = PBXGroup;
-			children = (
-				071621C021F06DE2002E550E /* FGWebViewController.h */,
-				071621C121F06DE2002E550E /* FGWebView.m */,
-				071621C221F06DE2002E550E /* FGWebViewController.m */,
-				071621C321F06DE2002E550E /* FGWebView.h */,
-			);
-			path = WebView;
-			sourceTree = "<group>";
-		};
-		071621C421F06DE2002E550E /* Pay */ = {
-			isa = PBXGroup;
-			children = (
-				071621C521F06DE2002E550E /* FGPaymentManager.h */,
-				071621C621F06DE2002E550E /* FGPaymentManager.m */,
-			);
-			path = Pay;
-			sourceTree = "<group>";
-		};
-		071621C721F06DE2002E550E /* AliyunOSS */ = {
-			isa = PBXGroup;
-			children = (
-				071621C821F06DE2002E550E /* FGAliyunOSSManager.h */,
-				071621C921F06DE2002E550E /* FGAliyunOSSManager.m */,
-			);
-			path = AliyunOSS;
-			sourceTree = "<group>";
-		};
-		071621CA21F06DE2002E550E /* AppStoreVersion */ = {
-			isa = PBXGroup;
-			children = (
-				071621CB21F06DE2002E550E /* FGAppStoreVersionManager.m */,
-				071621CC21F06DE2002E550E /* FGAppStoreVersionManager.h */,
-			);
-			path = AppStoreVersion;
-			sourceTree = "<group>";
-		};
-		071621CD21F06DE2002E550E /* MapManager */ = {
-			isa = PBXGroup;
-			children = (
-				071621CE21F06DE2002E550E /* LocationHelper.m */,
-				071621CF21F06DE2002E550E /* LocationHelper.h */,
-			);
-			path = MapManager;
-			sourceTree = "<group>";
-		};
-		071621D021F06DE2002E550E /* ImagePickerController */ = {
-			isa = PBXGroup;
-			children = (
-				071621D121F06DE2002E550E /* FGImagePickerCCell.m */,
-				071621D221F06DE2002E550E /* FGImagePickerHelper.m */,
-				071621D321F06DE2002E550E /* FGImagePickerView.m */,
-				071621D421F06DE2002E550E /* LxGridViewFlowLayout.h */,
-				071621D521F06DE2002E550E /* FGImagePickerHelper.h */,
-				071621D621F06DE2002E550E /* FGImagePickerCCell.h */,
-				071621D721F06DE2002E550E /* FGImagePickerView.h */,
-				071621D821F06DE2002E550E /* LxGridViewFlowLayout.m */,
-			);
-			path = ImagePickerController;
 			sourceTree = "<group>";
 		};
 		071621D921F06DE2002E550E /* BaseClass */ = {
@@ -578,25 +408,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FGiOSKitDemo/Pods-FGiOSKitDemo-resources.sh",
-				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle",
 				"${PODS_ROOT}/EasyNavigation/EasyNavigation/EasyNavButton.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_ROOT}/PYPhotoBrowser/PYPhotoBrowser/PYPhotosView.bundle",
-				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
-				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
-				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EasyNavButton.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PYPhotosView.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -633,57 +453,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				0716223A21F06DE2002E550E /* FGSheetPopControl.m in Sources */,
-				0716222821F06DE2002E550E /* FGPaymentManager.m in Sources */,
-				0716222321F06DE2002E550E /* FGAdvertiseHelper.m in Sources */,
 				0716224621F06DE2002E550E /* FGTimePicker.m in Sources */,
-				0716222D21F06DE2002E550E /* FGImagePickerHelper.m in Sources */,
-				0716222A21F06DE2002E550E /* FGAppStoreVersionManager.m in Sources */,
 				0716221C21F06DE2002E550E /* NSString+HtmlStyle.m in Sources */,
 				07161F2821EF2914002E550E /* ViewController.m in Sources */,
-				0716221F21F06DE2002E550E /* FCShareBtnsView.m in Sources */,
 				0716223321F06DE2002E550E /* FGBaseRefreshTableViewController.m in Sources */,
 				0716221B21F06DE2002E550E /* UIView+EdgeLine.m in Sources */,
 				0716223721F06DE2002E550E /* FGBaseTableViewCell.m in Sources */,
-				0716222F21F06DE2002E550E /* LxGridViewFlowLayout.m in Sources */,
 				0716224221F06DE2002E550E /* FGPlaceholderTextView.m in Sources */,
 				0716224821F06DE2002E550E /* FGGroupBtnsView.m in Sources */,
 				0716224321F06DE2002E550E /* FGEmptyView.m in Sources */,
 				0716223E21F06DE2002E550E /* FGPickerView.m in Sources */,
 				0716223921F06DE2002E550E /* FGMoneyTextField.m in Sources */,
-				0716222921F06DE2002E550E /* FGAliyunOSSManager.m in Sources */,
 				0716224021F06DE2002E550E /* FGAreaPicker.m in Sources */,
 				0716223621F06DE2002E550E /* FGBaseTouchView.m in Sources */,
-				0716222221F06DE2002E550E /* FGAdvertiseView.m in Sources */,
 				0716224721F06DE2002E550E /* FGRefreshHeader.m in Sources */,
-				0716222E21F06DE2002E550E /* FGImagePickerView.m in Sources */,
 				0716221A21F06DE2002E550E /* MBProgressHUD+LMJ.m in Sources */,
 				0716223B21F06DE2002E550E /* FGScrollView.m in Sources */,
 				0716224921F06DE2002E550E /* FGTools.m in Sources */,
-				0716222B21F06DE2002E550E /* LocationHelper.m in Sources */,
-				0716222121F06DE2002E550E /* FGSharePopView.m in Sources */,
 				0716223821F06DE2002E550E /* FGBaseView.m in Sources */,
 				0716224421F06DE2002E550E /* FGTagsView.m in Sources */,
 				0716221721F06DE2002E550E /* UIViewController+FGToast.m in Sources */,
 				0716221921F06DE2002E550E /* NSNumber+FGPrice.m in Sources */,
-				0716221521F06DE2002E550E /* UIViewController+Swizzle.m in Sources */,
-				0716222021F06DE2002E550E /* FGShareManager.m in Sources */,
 				0716223121F06DE2002E550E /* FGBaseNavigationController.m in Sources */,
-				0716222521F06DE2002E550E /* FGUmengAnalyticsHelper.m in Sources */,
 				0716223F21F06DE2002E550E /* FGImageGroupView.m in Sources */,
 				07161F3321EF2916002E550E /* main.m in Sources */,
-				0716222621F06DE2002E550E /* FGWebView.m in Sources */,
 				0716223C21F06DE2002E550E /* FGCellStyleView.m in Sources */,
 				0716221E21F06DE2002E550E /* NSString+FGDate.m in Sources */,
-				0716222421F06DE2002E550E /* FGAdvertiseVedioView.m in Sources */,
 				0716223D21F06DE2002E550E /* FGInsetsLabel.m in Sources */,
 				0716224521F06DE2002E550E /* FGBillStyleView.m in Sources */,
 				0716223521F06DE2002E550E /* FGPageViewController.m in Sources */,
 				0716221621F06DE2002E550E /* UIView+FGNew.m in Sources */,
 				0716223021F06DE2002E550E /* FGBaseCollectionViewCell.m in Sources */,
 				0716224121F06DE2002E550E /* FGAlertView.m in Sources */,
-				0716222721F06DE2002E550E /* FGWebViewController.m in Sources */,
 				07161F2521EF2914002E550E /* AppDelegate.m in Sources */,
-				0716222C21F06DE2002E550E /* FGImagePickerCCell.m in Sources */,
 				0716223221F06DE2002E550E /* FGBaseViewController.m in Sources */,
 				0716221821F06DE2002E550E /* UIColor+FGGradient.m in Sources */,
 				0716221D21F06DE2002E550E /* NSString+FGNormalRegex.m in Sources */,

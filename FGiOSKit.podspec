@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FGiOSKit"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "FGiOSKit"
 
   # This description is used to generate tags and improve search results.
@@ -117,30 +117,31 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "AFNetworking"
-  spec.dependency "AliyunOSSiOS"
+  # spec.dependency "AFNetworking"
+  # spec.dependency "AliyunOSSiOS"
   spec.dependency "EasyNavigation"
   spec.dependency "MJRefresh"
-  spec.dependency "MJExtension"
+  # spec.dependency "MJExtension"
   spec.dependency "Masonry"
   spec.dependency "MBProgressHUD"
   spec.dependency "TPKeyboardAvoiding"
   spec.dependency "ReactiveObjC"
   spec.dependency "UITableView+FDTemplateLayoutCell"
   spec.dependency "WMPageController"
-  spec.dependency "SDCycleScrollView"
+  # spec.dependency "SDCycleScrollView"
   spec.dependency "YYKit"
+  spec.dependency "JKCategories"
   spec.dependency "TZImagePickerController"
-  spec.dependency 'PYPhotoBrowser'
+  # spec.dependency 'PYPhotoBrowser'
   spec.dependency 'SDWebImage'  ,'< 4.3.0'
-  spec.dependency 'AlipaySDK-iOS'  
-  spec.dependency 'WechatOpenSDK'  
-  spec.dependency 'UMCCommon'  
-  spec.dependency 'UMCAnalytics'
-  spec.dependency 'UMCShare/UI'  
-  spec.dependency 'UMCShare/Social/ReducedWeChat'  
-  spec.dependency 'UMCShare/Social/QQ'    
-  spec.dependency 'UMCShare/Social/Sina'    
+  # spec.dependency 'AlipaySDK-iOS'  
+  # spec.dependency 'WechatOpenSDK'  
+  # spec.dependency 'UMCCommon'  
+  # spec.dependency 'UMCAnalytics'
+  # spec.dependency 'UMCShare/UI'  
+  # spec.dependency 'UMCShare/Social/ReducedWeChat'  
+  # spec.dependency 'UMCShare/Social/QQ'    
+  # spec.dependency 'UMCShare/Social/Sina'    
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -176,37 +177,37 @@ Pod::Spec.new do |spec|
           wraperView.source_files = 'FGiOSKit/iOSKit/WraperView/*.{h,m}'
       end
 
-      ioskit.subspec 'Component' do |component|
+      # ioskit.subspec 'Component' do |component|
           
-          #四级
-          component.subspec 'AdvertiseHelper' do |advertiseHelper|
-              advertiseHelper.source_files = 'FGiOSKit/iOSKit/Component/AdvertiseHelper/*.{h,m}'
-          end
-          component.subspec 'AliyunOSS' do |aliyunoss|
-              aliyunoss.source_files = 'FGiOSKit/iOSKit/Component/AliyunOSS/*.{h,m}'
-          end
-          component.subspec 'AppStoreVersion' do |appstoreversion|
-              appstoreversion.source_files = 'FGiOSKit/iOSKit/Component/AppStoreVersion/*.{h,m}'
-          end
-          component.subspec 'ImagePickerController' do |imagepickercontroller|
-              imagepickercontroller.source_files = 'FGiOSKit/iOSKit/Component/ImagePickerController/*.{h,m}'
-          end
-          component.subspec 'MapManager' do |mapmanager|
-              mapmanager.source_files = 'FGiOSKit/iOSKit/Component/MapManager/*.{h,m}'
-          end
-          component.subspec 'Pay' do |pay|
-              pay.source_files = 'FGiOSKit/iOSKit/Component/Pay/*.{h,m}'
-          end
-          component.subspec 'UmengAnalytics' do |umenganalytics|
-              umenganalytics.source_files = 'FGiOSKit/iOSKit/Component/UmengAnalytics/*.{h,m}'
-          end
-          component.subspec 'UMshare' do |umshare|
-              umshare.source_files = 'FGiOSKit/iOSKit/Component/UMshare/*.{h,m}'
-          end
-          component.subspec 'WebView' do |webView|
-              webView.source_files = 'FGiOSKit/iOSKit/Component/WebView/*.{h,m}'
-          end
-      end
+      #     #四级
+      #     component.subspec 'AdvertiseHelper' do |advertiseHelper|
+      #         advertiseHelper.source_files = 'FGiOSKit/iOSKit/Component/AdvertiseHelper/*.{h,m}'
+      #     end
+      #     component.subspec 'AliyunOSS' do |aliyunoss|
+      #         aliyunoss.source_files = 'FGiOSKit/iOSKit/Component/AliyunOSS/*.{h,m}'
+      #     end
+      #     component.subspec 'AppStoreVersion' do |appstoreversion|
+      #         appstoreversion.source_files = 'FGiOSKit/iOSKit/Component/AppStoreVersion/*.{h,m}'
+      #     end
+      #     component.subspec 'ImagePickerController' do |imagepickercontroller|
+      #         imagepickercontroller.source_files = 'FGiOSKit/iOSKit/Component/ImagePickerController/*.{h,m}'
+      #     end
+      #     component.subspec 'MapManager' do |mapmanager|
+      #         mapmanager.source_files = 'FGiOSKit/iOSKit/Component/MapManager/*.{h,m}'
+      #     end
+      #     component.subspec 'Pay' do |pay|
+      #         pay.source_files = 'FGiOSKit/iOSKit/Component/Pay/*.{h,m}'
+      #     end
+      #     component.subspec 'UmengAnalytics' do |umenganalytics|
+      #         umenganalytics.source_files = 'FGiOSKit/iOSKit/Component/UmengAnalytics/*.{h,m}'
+      #     end
+      #     component.subspec 'UMshare' do |umshare|
+      #         umshare.source_files = 'FGiOSKit/iOSKit/Component/UMshare/*.{h,m}'
+      #     end
+      #     component.subspec 'WebView' do |webView|
+      #         webView.source_files = 'FGiOSKit/iOSKit/Component/WebView/*.{h,m}'
+      #     end
+      # end
   end
 
 end
