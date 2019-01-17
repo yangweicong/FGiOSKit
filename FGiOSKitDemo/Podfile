@@ -3,16 +3,16 @@ platform :ios, '9.0'
 inhibit_all_warnings!
 target 'FGiOSKitDemo' do
 #    pod 'AFNetworking'
-    pod 'SDWebImage'  ,'< 4.3.0'#此处限制版本是因为PYPhotoBrowser不支持高版本的SD，后续支持的话可不做
+#    pod 'SDWebImage'  ,'< 4.3.0'#此处限制版本是因为PYPhotoBrowser不支持高版本的SD，后续支持的话可不做
     pod 'Masonry'
     pod 'MJRefresh'
 #    pod 'MJExtension'
-    pod 'YYKit'
+#    pod 'YYKit'
     pod 'JKCategories' #iOS类别库
     pod 'EasyNavigation' #自定义导航栏
 #    pod 'TZImagePickerController'#仿微信图片选择器
 #    pod 'PYPhotoBrowser'#图片浏览器
-    pod 'MBProgressHUD'
+#    pod 'MBProgressHUD'
     pod 'UITableView+FDTemplateLayoutCell'
     pod 'WMPageController'
 #    pod 'SDCycleScrollView' #banner库

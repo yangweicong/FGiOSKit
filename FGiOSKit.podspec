@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FGiOSKit"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "FGiOSKit"
 
   # This description is used to generate tags and improve search results.
@@ -123,17 +123,17 @@ Pod::Spec.new do |spec|
   spec.dependency "MJRefresh"
   # spec.dependency "MJExtension"
   spec.dependency "Masonry"
-  spec.dependency "MBProgressHUD"
+  # spec.dependency "MBProgressHUD"
   spec.dependency "TPKeyboardAvoiding"
   spec.dependency "ReactiveObjC"
   spec.dependency "UITableView+FDTemplateLayoutCell"
   spec.dependency "WMPageController"
   # spec.dependency "SDCycleScrollView"
-  spec.dependency "YYKit"
+  # spec.dependency "YYKit"
   spec.dependency "JKCategories"
   spec.dependency "TZImagePickerController"
   # spec.dependency 'PYPhotoBrowser'
-  spec.dependency 'SDWebImage'  ,'< 4.3.0'
+  # spec.dependency 'SDWebImage'  ,'< 4.3.0'
   # spec.dependency 'AlipaySDK-iOS'  
   # spec.dependency 'WechatOpenSDK'  
   # spec.dependency 'UMCCommon'  
@@ -167,15 +167,15 @@ Pod::Spec.new do |spec|
       ioskit.subspec 'BaseClass' do |baseclass|
           baseclass.source_files = 'FGiOSKit/iOSKit/BaseClass/*.{h,m}'
       end
-      ioskit.subspec 'Category' do |category|
-          category.source_files = 'FGiOSKit/iOSKit/Category/*.{h,m}'
-      end
+      # ioskit.subspec 'Category' do |category|
+      #     category.source_files = 'FGiOSKit/iOSKit/Category/*.{h,m}'
+      # end
       ioskit.subspec 'Helper' do |helper|
           helper.source_files = 'FGiOSKit/iOSKit/Helper/*.{h,m}'
       end
-      ioskit.subspec 'WraperView' do |wraperView|
-          wraperView.source_files = 'FGiOSKit/iOSKit/WraperView/*.{h,m}'
-      end
+      # ioskit.subspec 'WraperView' do |wraperView|
+      #     wraperView.source_files = 'FGiOSKit/iOSKit/WraperView/*.{h,m}'
+      # end
 
       # ioskit.subspec 'Component' do |component|
           
