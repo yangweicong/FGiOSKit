@@ -163,12 +163,12 @@ Pod::Spec.new do |spec|
 #      ioskit.source_files = 'JKCategories/Foundation/**/*.{h,m}'
 #     ioskit.public_header_files = 'FGiOSKit/Foundation/JKFoundation.h'
       # ioskit.source_files = 'FGiOSKit/iOSKit/JKFoundation.h'
-      ioskit.frameworks = 'Foundation','UIKit'
+      # ioskit.frameworks = 'Foundation','UIKit'
 
       #三级
-      ioskit.subspec 'BaseClass' do |baseclass|
-          baseclass.source_files = 'FGiOSKit/iOSKit/BaseClass/*.{h,m}'
-      end
+      # ioskit.subspec 'BaseClass' do |baseclass|
+      #     baseclass.source_files = 'FGiOSKit/iOSKit/BaseClass/*.{h,m}'
+      # end
       # ioskit.subspec 'Category' do |category|
       #     category.source_files = 'FGiOSKit/iOSKit/Category/*.{h,m}'
       # end
