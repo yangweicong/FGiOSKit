@@ -166,9 +166,9 @@ Pod::Spec.new do |spec|
       # ioskit.frameworks = 'Foundation','UIKit'
 
       #三级
-      ioskit.subspec 'BaseClass' do |baseclass|
-          baseclass.source_files = 'FGiOSKit/iOSKit/BaseClass/*.{h,m}'
-      end
+      # ioskit.subspec 'BaseClass' do |baseclass|
+      #     baseclass.source_files = 'FGiOSKit/iOSKit/BaseClass/*.{h,m}'
+      # end
       # ioskit.subspec 'Category' do |category|
       #     category.source_files = 'FGiOSKit/iOSKit/Category/*.{h,m}'
       # end
