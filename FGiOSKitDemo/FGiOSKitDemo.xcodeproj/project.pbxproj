@@ -13,7 +13,6 @@
 		07161F2D21EF2916002E550E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07161F2C21EF2916002E550E /* Assets.xcassets */; };
 		07161F3021EF2916002E550E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07161F2E21EF2916002E550E /* LaunchScreen.storyboard */; };
 		07161F3321EF2916002E550E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07161F3221EF2916002E550E /* main.m */; };
-		0716224921F06DE2002E550E /* FGTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716220F21F06DE2002E550E /* FGTools.m */; };
 		72C690D7B26E6DB603E0A1EF /* libPods-FGiOSKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFF1B98E3F100610792E35 /* libPods-FGiOSKitDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -29,12 +28,6 @@
 		07161F3121EF2916002E550E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07161F3221EF2916002E550E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0716217021F05467002E550E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		0716220E21F06DE2002E550E /* FGTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGTools.h; sourceTree = "<group>"; };
-		0716220F21F06DE2002E550E /* FGTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGTools.m; sourceTree = "<group>"; };
-		0716221021F06DE2002E550E /* FGUtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGUtilsMacro.h; sourceTree = "<group>"; };
-		0716221121F06DE2002E550E /* FGiOSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGiOSKit.h; sourceTree = "<group>"; };
-		0716221221F06DE2002E550E /* APPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPConst.h; sourceTree = "<group>"; };
-		0716221321F06DE2002E550E /* APPConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPConfig.h; sourceTree = "<group>"; };
 		0AF096B71A05D716DC7E3CAF /* Pods-FGiOSKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGiOSKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-FGiOSKitDemo/Pods-FGiOSKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7205F2F4C2BD3D4E362D75A2 /* Pods-FGiOSKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGiOSKitDemo.release.xcconfig"; path = "Target Support Files/Pods-FGiOSKitDemo/Pods-FGiOSKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7BEFF1B98E3F100610792E35 /* libPods-FGiOSKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FGiOSKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,7 +66,6 @@
 		07161F2221EF2914002E550E /* FGiOSKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0716219621F06DE2002E550E /* FGiOSKit */,
 				07161F2321EF2914002E550E /* AppDelegate.h */,
 				07161F2421EF2914002E550E /* AppDelegate.m */,
 				07161F2621EF2914002E550E /* ViewController.h */,
@@ -85,36 +77,6 @@
 				07161F3221EF2916002E550E /* main.m */,
 			);
 			path = FGiOSKitDemo;
-			sourceTree = "<group>";
-		};
-		0716219621F06DE2002E550E /* FGiOSKit */ = {
-			isa = PBXGroup;
-			children = (
-				0716219721F06DE2002E550E /* iOSKit */,
-				0716221121F06DE2002E550E /* FGiOSKit.h */,
-				0716221221F06DE2002E550E /* APPConst.h */,
-				0716221321F06DE2002E550E /* APPConfig.h */,
-			);
-			name = FGiOSKit;
-			path = ../../FGiOSKit;
-			sourceTree = "<group>";
-		};
-		0716219721F06DE2002E550E /* iOSKit */ = {
-			isa = PBXGroup;
-			children = (
-				0716220D21F06DE2002E550E /* Helper */,
-			);
-			path = iOSKit;
-			sourceTree = "<group>";
-		};
-		0716220D21F06DE2002E550E /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				0716220E21F06DE2002E550E /* FGTools.h */,
-				0716220F21F06DE2002E550E /* FGTools.m */,
-				0716221021F06DE2002E550E /* FGUtilsMacro.h */,
-			);
-			path = Helper;
 			sourceTree = "<group>";
 		};
 		8831B0AA201A0D8384EA1C60 /* Pods */ = {
@@ -232,7 +194,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				07161F2821EF2914002E550E /* ViewController.m in Sources */,
-				0716224921F06DE2002E550E /* FGTools.m in Sources */,
 				07161F3321EF2916002E550E /* main.m in Sources */,
 				07161F2521EF2914002E550E /* AppDelegate.m in Sources */,
 			);
