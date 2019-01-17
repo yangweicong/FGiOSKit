@@ -119,19 +119,21 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "AFNetworking"
   # spec.dependency "AliyunOSSiOS"
-  spec.dependency "EasyNavigation"
-  spec.dependency "MJRefresh"
   # spec.dependency "MJExtension"
-  spec.dependency "Masonry"
   # spec.dependency "MBProgressHUD"
-  spec.dependency "TPKeyboardAvoiding"
-  spec.dependency "ReactiveObjC"
-  spec.dependency "UITableView+FDTemplateLayoutCell"
-  spec.dependency "WMPageController"
+
+  # spec.dependency "EasyNavigation"
+  # spec.dependency "MJRefresh"
+  # spec.dependency "Masonry"
+  # spec.dependency "TPKeyboardAvoiding"
+  # spec.dependency "ReactiveObjC"
+  # spec.dependency "UITableView+FDTemplateLayoutCell"
+  # spec.dependency "WMPageController"
+  # spec.dependency "JKCategories"
+  # spec.dependency "TZImagePickerController"
+  
   # spec.dependency "SDCycleScrollView"
   # spec.dependency "YYKit"
-  spec.dependency "JKCategories"
-  spec.dependency "TZImagePickerController"
   # spec.dependency 'PYPhotoBrowser'
   # spec.dependency 'SDWebImage'  ,'< 4.3.0'
   # spec.dependency 'AlipaySDK-iOS'  
