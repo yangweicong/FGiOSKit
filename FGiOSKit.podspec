@@ -153,7 +153,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "FGiOSKit/*"
+  spec.source_files  = "FGiOSKit/FGiOSKit.h"
   # spec.exclude_files = "FGiOSKit/APPConfig.h"
   spec.public_header_files = "FGiOSKit/FGiOSKit.h"
 
