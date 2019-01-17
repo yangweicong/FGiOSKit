@@ -128,8 +128,8 @@ Pod::Spec.new do |spec|
   # spec.dependency "TPKeyboardAvoiding"
   # spec.dependency "ReactiveObjC"
   # spec.dependency "UITableView+FDTemplateLayoutCell"
-  # spec.dependency "WMPageController"
-  spec.dependency "JKCategories"
+  # # spec.dependency "WMPageController"
+  # spec.dependency "JKCategories"
   # spec.dependency "TZImagePickerController"
 
   # spec.dependency "SDCycleScrollView"
@@ -166,15 +166,15 @@ Pod::Spec.new do |spec|
       # ioskit.frameworks = 'Foundation','UIKit'
 
       #三级
-      # ioskit.subspec 'BaseClass' do |baseclass|
-      #     baseclass.source_files = 'FGiOSKit/iOSKit/BaseClass/*.{h,m}'
-      # end
+      ioskit.subspec 'BaseClass' do |baseclass|
+          baseclass.source_files = 'FGiOSKit/iOSKit/BaseClass/*.{h,m}'
+      end
       # ioskit.subspec 'Category' do |category|
       #     category.source_files = 'FGiOSKit/iOSKit/Category/*.{h,m}'
       # end
-      ioskit.subspec 'Helper' do |helper|
-          helper.source_files = 'FGiOSKit/iOSKit/Helper/*.{h,m}'
-      end
+      # ioskit.subspec 'Helper' do |helper|
+      #     helper.source_files = 'FGiOSKit/iOSKit/Helper/*.{h,m}'
+      # end
       # ioskit.subspec 'WraperView' do |wraperView|
       #     wraperView.source_files = 'FGiOSKit/iOSKit/WraperView/*.{h,m}'
       # end
