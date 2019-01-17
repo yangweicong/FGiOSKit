@@ -15,8 +15,8 @@
 //#import <ReactiveObjC/ReactiveObjC.h>
 //#import <UIImageView+WebCache.h>
 //#import <UIButton+WebCache.h>
-#import <JKUIKit.h>
-#import <JKFoundation.h>
+//#import <JKUIKit.h>
+//#import <JKFoundation.h>
 
 #pragma mark - 基类
 
@@ -25,7 +25,7 @@
 //#import "FGEmptyView.h"     //占位图
 //#import "FGUtilsMacro.h"    //宏
 //#import "FGAlertView.h"     //提示框
-#import "FGTools.h"     //工具类
+//#import "FGTools.h"     //工具类
 
 #pragma mark - 类别
 
@@ -38,7 +38,7 @@
 
 #pragma mark - 需要手动导入项目中的
 
-#import "APPConst.h"
-#import "APPConfig.h"
+//#import "APPConst.h"
+//#import "APPConfig.h"
 
 #endif /* FGiOSKit_h */

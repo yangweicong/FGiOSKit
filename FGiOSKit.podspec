@@ -162,7 +162,7 @@ Pod::Spec.new do |spec|
 #      ioskit.source_files = 'JKCategories/Foundation/**/*.{h,m}'
 #      ioskit.source_files = 'JKCategories/Foundation/**/*.{h,m}'
 #     ioskit.public_header_files = 'FGiOSKit/Foundation/JKFoundation.h'
-      ioskit.source_files = 'FGiOSKit/iOSKit/*.{h,m'
+      ioskit.source_files = 'FGiOSKit/iOSKit/*.{h,m}'
       # ioskit.frameworks = 'Foundation','UIKit'
 
       #三级
