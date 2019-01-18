@@ -65,6 +65,11 @@
 		071F453121F17A9F0034CC7E /* FGTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F44F421F17A9F0034CC7E /* FGTimePicker.m */; };
 		071F453221F17A9F0034CC7E /* FGGroupBtnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F44F821F17A9F0034CC7E /* FGGroupBtnsView.m */; };
 		071F453321F17A9F0034CC7E /* FGTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F44FB21F17A9F0034CC7E /* FGTools.m */; };
+		071F458121F1D1E30034CC7E /* FGAddressManagerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F457721F1D1E30034CC7E /* FGAddressManagerCell.m */; };
+		071F458221F1D1E30034CC7E /* FGOderAddressDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F457821F1D1E30034CC7E /* FGOderAddressDisplayView.m */; };
+		071F458321F1D1E30034CC7E /* FGAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F457921F1D1E30034CC7E /* FGAddressModel.m */; };
+		071F458421F1D1E30034CC7E /* FGAddressManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F457B21F1D1E30034CC7E /* FGAddressManagerViewController.m */; };
+		071F458521F1D1E30034CC7E /* FGAddAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F458021F1D1E30034CC7E /* FGAddAddressViewController.m */; };
 		72C690D7B26E6DB603E0A1EF /* libPods-FGiOSKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFF1B98E3F100610792E35 /* libPods-FGiOSKitDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -188,6 +193,16 @@
 		071F44FD21F17A9F0034CC7E /* FGiOSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGiOSKit.h; sourceTree = "<group>"; };
 		071F44FE21F17A9F0034CC7E /* APPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPConst.h; sourceTree = "<group>"; };
 		071F44FF21F17A9F0034CC7E /* APPConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPConfig.h; sourceTree = "<group>"; };
+		071F457721F1D1E30034CC7E /* FGAddressManagerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAddressManagerCell.m; sourceTree = "<group>"; };
+		071F457821F1D1E30034CC7E /* FGOderAddressDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGOderAddressDisplayView.m; sourceTree = "<group>"; };
+		071F457921F1D1E30034CC7E /* FGAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAddressModel.m; sourceTree = "<group>"; };
+		071F457A21F1D1E30034CC7E /* FGAddAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAddAddressViewController.h; sourceTree = "<group>"; };
+		071F457B21F1D1E30034CC7E /* FGAddressManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAddressManagerViewController.m; sourceTree = "<group>"; };
+		071F457C21F1D1E30034CC7E /* FGAddressManagerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAddressManagerCell.h; sourceTree = "<group>"; };
+		071F457D21F1D1E30034CC7E /* FGOderAddressDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGOderAddressDisplayView.h; sourceTree = "<group>"; };
+		071F457E21F1D1E30034CC7E /* FGAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAddressModel.h; sourceTree = "<group>"; };
+		071F457F21F1D1E30034CC7E /* FGAddressManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAddressManagerViewController.h; sourceTree = "<group>"; };
+		071F458021F1D1E30034CC7E /* FGAddAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAddAddressViewController.m; sourceTree = "<group>"; };
 		0AF096B71A05D716DC7E3CAF /* Pods-FGiOSKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGiOSKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-FGiOSKitDemo/Pods-FGiOSKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7205F2F4C2BD3D4E362D75A2 /* Pods-FGiOSKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGiOSKitDemo.release.xcconfig"; path = "Target Support Files/Pods-FGiOSKitDemo/Pods-FGiOSKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7BEFF1B98E3F100610792E35 /* libPods-FGiOSKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FGiOSKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -292,6 +307,7 @@
 		071F449921F17A9F0034CC7E /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				071F457621F1D1E30034CC7E /* Address */,
 				071F449A21F17A9F0034CC7E /* UMshare */,
 				071F44A121F17A9F0034CC7E /* AdvertiseHelper */,
 				071F44A821F17A9F0034CC7E /* UmengAnalytics */,
@@ -476,6 +492,23 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		071F457621F1D1E30034CC7E /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				071F457721F1D1E30034CC7E /* FGAddressManagerCell.m */,
+				071F457821F1D1E30034CC7E /* FGOderAddressDisplayView.m */,
+				071F457921F1D1E30034CC7E /* FGAddressModel.m */,
+				071F457A21F1D1E30034CC7E /* FGAddAddressViewController.h */,
+				071F457B21F1D1E30034CC7E /* FGAddressManagerViewController.m */,
+				071F457C21F1D1E30034CC7E /* FGAddressManagerCell.h */,
+				071F457D21F1D1E30034CC7E /* FGOderAddressDisplayView.h */,
+				071F457E21F1D1E30034CC7E /* FGAddressModel.h */,
+				071F457F21F1D1E30034CC7E /* FGAddressManagerViewController.h */,
+				071F458021F1D1E30034CC7E /* FGAddAddressViewController.m */,
+			);
+			path = Address;
+			sourceTree = "<group>";
+		};
 		8831B0AA201A0D8384EA1C60 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -627,6 +660,7 @@
 			files = (
 				071F450F21F17A9F0034CC7E /* FGUmengAnalyticsHelper.m in Sources */,
 				071F451421F17A9F0034CC7E /* FGAppStoreVersionManager.m in Sources */,
+				071F458421F1D1E30034CC7E /* FGAddressManagerViewController.m in Sources */,
 				071F450521F17A9F0034CC7E /* UIView+EdgeLine.m in Sources */,
 				071F453121F17A9F0034CC7E /* FGTimePicker.m in Sources */,
 				071F451121F17A9F0034CC7E /* FGWebViewController.m in Sources */,
@@ -663,6 +697,7 @@
 				071F452A21F17A9F0034CC7E /* FGImageGroupView.m in Sources */,
 				071F451321F17A9F0034CC7E /* FGAliyunOSSManager.m in Sources */,
 				071F450C21F17A9F0034CC7E /* FGAdvertiseView.m in Sources */,
+				071F458221F1D1E30034CC7E /* FGOderAddressDisplayView.m in Sources */,
 				071F452721F17A9F0034CC7E /* FGCellStyleView.m in Sources */,
 				071F451521F17A9F0034CC7E /* LocationHelper.m in Sources */,
 				071F451C21F17A9F0034CC7E /* FGBaseViewController.m in Sources */,
@@ -673,13 +708,16 @@
 				071F453321F17A9F0034CC7E /* FGTools.m in Sources */,
 				071F451B21F17A9F0034CC7E /* FGBaseNavigationController.m in Sources */,
 				071F452C21F17A9F0034CC7E /* FGAlertView.m in Sources */,
+				071F458521F1D1E30034CC7E /* FGAddAddressViewController.m in Sources */,
 				071F451221F17A9F0034CC7E /* FGPaymentManager.m in Sources */,
 				07161F2521EF2914002E550E /* AppDelegate.m in Sources */,
+				071F458321F1D1E30034CC7E /* FGAddressModel.m in Sources */,
 				071F450D21F17A9F0034CC7E /* FGAdvertiseHelper.m in Sources */,
 				071F450821F17A9F0034CC7E /* NSString+FGDate.m in Sources */,
 				071F451F21F17A9F0034CC7E /* FGScrollView.m in Sources */,
 				071F451D21F17A9F0034CC7E /* FGBaseRefreshTableViewController.m in Sources */,
 				071F450321F17A9F0034CC7E /* NSNumber+FGPrice.m in Sources */,
+				071F458121F1D1E30034CC7E /* FGAddressManagerCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
