@@ -21,7 +21,7 @@ target 'FGiOSKitDemo' do
    pod 'AliyunOSSiOS' #阿里云OSS
    pod 'AlipaySDK-iOS' #支付宝支付SDK
    pod 'WechatOpenSDK' #微信支付SDK
-    友盟
+   # 友盟
    pod 'UMCCommon'
 #    pod 'UMCSecurityPlugins' (会和支付宝SDK冲突)
    pod 'UMCAnalytics' #友盟统计
