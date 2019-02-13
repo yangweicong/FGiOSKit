@@ -9,6 +9,27 @@
 #import <UIKit/UIKit.h>
 #import "FGBaseTouchView.h"
 
+/* Demo 可直接复制使用
+ 
+NSArray *images = @[@"ic_selected_bottom_print_gray",@"ic_selected_bottom_del_gray",@"ic_selected_bottom_future_generations_gray",@"ic_selected_bottom_share_gray"];
+NSArray *titles = @[@"打印",@"删除",@"全选",@"分享"];
+NSMutableArray *models = [NSMutableArray new];
+for (NSInteger i = 0; i < images.count; i ++) {
+    FGGroupBtnsModel *model = [FGGroupBtnsModel new];
+    model.titleString = titles[i];
+    model.btnTitleFont = 11;
+    model.btnTitleColor = UIColorFromHex(0x999999);
+    model.imageString = images[i];
+    model.btnTop = 6;
+    model.btnSpace = 6;
+    model.btnBottom = 6;
+    [models addObject:model];
+}
+self.btnView = [[FGGroupBtnsView alloc] initWithModel:models width:kScreenWidth column:4];
+[self addSubview:self.btnView];
+
+ */
+
 @interface FGGroupBtnsModel : NSObject
 
 @property (nonatomic, copy) NSString *titleString;  ///< 标题

@@ -162,6 +162,7 @@ PODS:
   - JKCategories/UIKit/UIWebView (1.8):
     - JKCategories/UIKit/UIColor
   - JKCategories/UIKit/UIWindow (1.8)
+  - JXCategoryView (1.2.5)
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
   - MJExtension (3.0.15.1)
@@ -219,6 +220,7 @@ DEPENDENCIES:
   - AliyunOSSiOS
   - EasyNavigation
   - JKCategories
+  - JXCategoryView (~> 1.2.5)
   - Masonry
   - MBProgressHUD
   - MJExtension
@@ -249,6 +251,7 @@ SPEC REPOS:
     - EasyNavigation
     - FLAnimatedImage
     - JKCategories
+    - JXCategoryView
     - Masonry
     - MBProgressHUD
     - MJExtension
@@ -275,6 +278,7 @@ SPEC CHECKSUMS:
   EasyNavigation: 3414769a995d032e5dd9441f2bdd4eda7dd10089
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   JKCategories: b62b30694ebe6d9fe5520b54ba250015dabd6dae
+  JXCategoryView: 46ef3531d9fbd0470c63bda9b7043d3e1111a331
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
@@ -293,6 +297,6 @@ SPEC CHECKSUMS:
   WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 3eb5a27cf81e297b9f05646c3bcadf5892567fc6
+PODFILE CHECKSUM: 0d9a2a9b55686067c74746b45e116de8b47a2e3b
 
 COCOAPODS: 1.6.0.beta.2

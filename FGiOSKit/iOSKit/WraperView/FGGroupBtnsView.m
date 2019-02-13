@@ -79,7 +79,7 @@
         _title = model.titleString;
         
 //        self.isHighlight = YES;
-        self.backgroundColor = [UIColor whiteColor];
+        self.backgroundColor = [UIColor clearColor];
         
         UIImageView *imgView = [UIImageView new];
         imgView.contentMode = UIViewContentModeScaleAspectFit;
@@ -144,7 +144,7 @@
     if (self.width <= 0) {
         self.width = kScreenWidth;
     }
-    
+    self.backgroundColor = [UIColor whiteColor];
     for (int i = 0; i < models.count ; i++ ) {
     
         FGCustomBtn *btn = [[FGCustomBtn alloc] initWithModel:objectAtArrayIndex(models, i)];
