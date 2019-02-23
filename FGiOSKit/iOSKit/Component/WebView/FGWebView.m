@@ -91,7 +91,7 @@ static void *icWebBrowserContext = &icWebBrowserContext;
         return;
     }
     
-    if ([url containsString:@"http://"] || [url containsString:@"https://"]) {
+    if ([url hasPrefix:@"http://"] || [url hasPrefix:@"https://"]) {
         [self.wkWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:url]]];
     }else{
         [self.wkWebView loadHTMLString:url baseURL:nil];
